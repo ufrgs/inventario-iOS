@@ -1,0 +1,6 @@
+framework module Pods_Inventa_rio_UFRGS {
+  umbrella header "Pods-Inventário UFRGS-umbrella.h"
+
+  export *
+  module * { export * }
+}

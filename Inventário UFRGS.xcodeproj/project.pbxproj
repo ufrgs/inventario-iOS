@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B225FACF1F7AF215003113A9 /* ModernSearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FACA1F7AF215003113A9 /* ModernSearchBarDelegate.swift */; };
+		B225FAD01F7AF215003113A9 /* ModernSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FACB1F7AF215003113A9 /* ModernSearchBar.swift */; };
+		B225FAD11F7AF215003113A9 /* ModernSearchBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FACC1F7AF215003113A9 /* ModernSearchBarModel.swift */; };
+		B225FAD21F7AF215003113A9 /* ModernSearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FACD1F7AF215003113A9 /* ModernSearchBarCell.swift */; };
+		B225FAD31F7AF215003113A9 /* ModernSearchBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FACE1F7AF215003113A9 /* ModernSearchBarIcon.swift */; };
+		B225FAD61F7C45CE003113A9 /* PredioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FAD51F7C45CE003113A9 /* PredioModel.swift */; };
+		B26AD2651F670D92001DA6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26AD2641F670D92001DA6F3 /* AppDelegate.swift */; };
+		B26AD2671F670D92001DA6F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26AD2661F670D92001DA6F3 /* ViewController.swift */; };
+		B26AD26A1F670D92001DA6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26AD2681F670D92001DA6F3 /* Main.storyboard */; };
+		B26AD26C1F670D92001DA6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26AD26B1F670D92001DA6F3 /* Assets.xcassets */; };
+		B26AD26F1F670D92001DA6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26AD26D1F670D92001DA6F3 /* LaunchScreen.storyboard */; };
+		B26AD27A1F670D92001DA6F3 /* Inventa_rio_UFRGSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26AD2791F670D92001DA6F3 /* Inventa_rio_UFRGSTests.swift */; };
+		B26AD2851F670D92001DA6F3 /* Inventa_rio_UFRGSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26AD2841F670D92001DA6F3 /* Inventa_rio_UFRGSUITests.swift */; };
+		B26AD2951F672F7B001DA6F3 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26AD2941F672F7B001DA6F3 /* SearchController.swift */; };
+		B27A53351F8448E600382687 /* IdentificacaoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27A53341F8448E600382687 /* IdentificacaoController.swift */; };
+		B29C83BE1F7AE5C800D251DD /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29C83BD1F7AE5C700D251DD /* SearchResultController.swift */; };
+		B2B8AEE31F7ECEE10025E3D5 /* BemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8AEE21F7ECEE10025E3D5 /* BemModel.swift */; };
+		B2B8AEE51F7EEA700025E3D5 /* BemInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8AEE41F7EEA700025E3D5 /* BemInfoController.swift */; };
+		B2C84EAC1F7D81EC005F28AB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C84EAB1F7D81EC005F28AB /* API.swift */; };
+		B2C84EAE1F7D84E4005F28AB /* UserDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C84EAD1F7D84E4005F28AB /* UserDef.swift */; };
+		B2D0DDFA1F8414B70099CC77 /* PendenciasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0DDF91F8414B70099CC77 /* PendenciasController.swift */; };
+		B2D0DDFC1F841A030099CC77 /* PendenciaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0DDFB1F841A030099CC77 /* PendenciaModel.swift */; };
+		B2DAB6151F69C35F0076F991 /* predios.json in Resources */ = {isa = PBXBuildFile; fileRef = B2DAB6141F69C35F0076F991 /* predios.json */; };
+		C138EACF1F848C2F00956E67 /* IdentificacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C138EACE1F848C2F00956E67 /* IdentificacaoModel.swift */; };
+		C138EAD11F8498B500956E67 /* FinalizarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C138EAD01F8498B500956E67 /* FinalizarController.swift */; };
+		C15989701F7709A70066D7BE /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159896F1F7709A70066D7BE /* RoomController.swift */; };
+		C15989721F7710FC0066D7BE /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15989711F7710FC0066D7BE /* SearchCell.swift */; };
+		EB685936B022275EFCC6F04B /* Pods_Inventa_rio_UFRGS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064E9CE08FF73B0B019805DD /* Pods_Inventa_rio_UFRGS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B26AD2761F670D92001DA6F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B26AD2591F670D91001DA6F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B26AD2601F670D92001DA6F3;
+			remoteInfo = "Inventário UFRGS";
+		};
+		B26AD2811F670D92001DA6F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B26AD2591F670D91001DA6F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B26AD2601F670D92001DA6F3;
+			remoteInfo = "Inventário UFRGS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064E9CE08FF73B0B019805DD /* Pods_Inventa_rio_UFRGS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inventa_rio_UFRGS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25751B67BE731CD7A6F9A087 /* Pods-Inventário UFRGS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventário UFRGS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inventário UFRGS/Pods-Inventário UFRGS.debug.xcconfig"; sourceTree = "<group>"; };
+		B225FACA1F7AF215003113A9 /* ModernSearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSearchBarDelegate.swift; sourceTree = "<group>"; };
+		B225FACB1F7AF215003113A9 /* ModernSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSearchBar.swift; sourceTree = "<group>"; };
+		B225FACC1F7AF215003113A9 /* ModernSearchBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSearchBarModel.swift; sourceTree = "<group>"; };
+		B225FACD1F7AF215003113A9 /* ModernSearchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSearchBarCell.swift; sourceTree = "<group>"; };
+		B225FACE1F7AF215003113A9 /* ModernSearchBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSearchBarIcon.swift; sourceTree = "<group>"; };
+		B225FAD51F7C45CE003113A9 /* PredioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredioModel.swift; sourceTree = "<group>"; };
+		B26AD2611F670D92001DA6F3 /* Inventário UFRGS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inventário UFRGS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26AD2641F670D92001DA6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B26AD2661F670D92001DA6F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B26AD2691F670D92001DA6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B26AD26B1F670D92001DA6F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26AD26E1F670D92001DA6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B26AD2701F670D92001DA6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26AD2751F670D92001DA6F3 /* Inventário UFRGSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inventário UFRGSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26AD2791F670D92001DA6F3 /* Inventa_rio_UFRGSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventa_rio_UFRGSTests.swift; sourceTree = "<group>"; };
+		B26AD27B1F670D92001DA6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26AD2801F670D92001DA6F3 /* Inventário UFRGSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inventário UFRGSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26AD2841F670D92001DA6F3 /* Inventa_rio_UFRGSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventa_rio_UFRGSUITests.swift; sourceTree = "<group>"; };
+		B26AD2861F670D92001DA6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26AD2941F672F7B001DA6F3 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		B27A53341F8448E600382687 /* IdentificacaoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificacaoController.swift; sourceTree = "<group>"; };
+		B29C83BD1F7AE5C700D251DD /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
+		B2B8AEE21F7ECEE10025E3D5 /* BemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemModel.swift; sourceTree = "<group>"; };
+		B2B8AEE41F7EEA700025E3D5 /* BemInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemInfoController.swift; sourceTree = "<group>"; };
+		B2C84EAA1F7D7C4B005F28AB /* orgaos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = orgaos.json; sourceTree = "<group>"; };
+		B2C84EAB1F7D81EC005F28AB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B2C84EAD1F7D84E4005F28AB /* UserDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDef.swift; sourceTree = "<group>"; };
+		B2D0DDF91F8414B70099CC77 /* PendenciasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendenciasController.swift; sourceTree = "<group>"; };
+		B2D0DDFB1F841A030099CC77 /* PendenciaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendenciaModel.swift; sourceTree = "<group>"; };
+		B2DAB6141F69C35F0076F991 /* predios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = predios.json; sourceTree = "<group>"; };
+		C138EACE1F848C2F00956E67 /* IdentificacaoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificacaoModel.swift; sourceTree = "<group>"; };
+		C138EAD01F8498B500956E67 /* FinalizarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalizarController.swift; sourceTree = "<group>"; };
+		C159896F1F7709A70066D7BE /* RoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomController.swift; sourceTree = "<group>"; };
+		C15989711F7710FC0066D7BE /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		E545225EC1C4D921C798E877 /* Pods-Inventário UFRGS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventário UFRGS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inventário UFRGS/Pods-Inventário UFRGS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26AD25E1F670D92001DA6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB685936B022275EFCC6F04B /* Pods_Inventa_rio_UFRGS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26AD2721F670D92001DA6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26AD27D1F670D92001DA6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059D42150F07074ED0ED53CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25751B67BE731CD7A6F9A087 /* Pods-Inventário UFRGS.debug.xcconfig */,
+				E545225EC1C4D921C798E877 /* Pods-Inventário UFRGS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F2AEB1234D058A2FDFD3FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				064E9CE08FF73B0B019805DD /* Pods_Inventa_rio_UFRGS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B225FAD41F7AF46A003113A9 /* ModernSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				B225FACB1F7AF215003113A9 /* ModernSearchBar.swift */,
+				B225FACD1F7AF215003113A9 /* ModernSearchBarCell.swift */,
+				B225FACA1F7AF215003113A9 /* ModernSearchBarDelegate.swift */,
+				B225FACE1F7AF215003113A9 /* ModernSearchBarIcon.swift */,
+				B225FACC1F7AF215003113A9 /* ModernSearchBarModel.swift */,
+			);
+			path = ModernSearchBar;
+			sourceTree = "<group>";
+		};
+		B26AD2581F670D91001DA6F3 = {
+			isa = PBXGroup;
+			children = (
+				B26AD2631F670D92001DA6F3 /* Inventário UFRGS */,
+				B26AD2781F670D92001DA6F3 /* Inventário UFRGSTests */,
+				B26AD2831F670D92001DA6F3 /* Inventário UFRGSUITests */,
+				B26AD2621F670D92001DA6F3 /* Products */,
+				059D42150F07074ED0ED53CB /* Pods */,
+				0F2AEB1234D058A2FDFD3FD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B26AD2621F670D92001DA6F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26AD2611F670D92001DA6F3 /* Inventário UFRGS.app */,
+				B26AD2751F670D92001DA6F3 /* Inventário UFRGSTests.xctest */,
+				B26AD2801F670D92001DA6F3 /* Inventário UFRGSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26AD2631F670D92001DA6F3 /* Inventário UFRGS */ = {
+			isa = PBXGroup;
+			children = (
+				B29C83BB1F7ADE8700D251DD /* Data */,
+				B2C84EAB1F7D81EC005F28AB /* API.swift */,
+				B2C84EAD1F7D84E4005F28AB /* UserDef.swift */,
+				B26AD2641F670D92001DA6F3 /* AppDelegate.swift */,
+				C15989711F7710FC0066D7BE /* SearchCell.swift */,
+				B225FAD51F7C45CE003113A9 /* PredioModel.swift */,
+				B2B8AEE21F7ECEE10025E3D5 /* BemModel.swift */,
+				C138EACE1F848C2F00956E67 /* IdentificacaoModel.swift */,
+				B26AD2661F670D92001DA6F3 /* ViewController.swift */,
+				B27A53341F8448E600382687 /* IdentificacaoController.swift */,
+				B2D0DDFB1F841A030099CC77 /* PendenciaModel.swift */,
+				C138EAD01F8498B500956E67 /* FinalizarController.swift */,
+				C159896F1F7709A70066D7BE /* RoomController.swift */,
+				B29C83BD1F7AE5C700D251DD /* SearchResultController.swift */,
+				B26AD2941F672F7B001DA6F3 /* SearchController.swift */,
+				B2B8AEE41F7EEA700025E3D5 /* BemInfoController.swift */,
+				B2D0DDF91F8414B70099CC77 /* PendenciasController.swift */,
+				B225FAD41F7AF46A003113A9 /* ModernSearchBar */,
+				B26AD2681F670D92001DA6F3 /* Main.storyboard */,
+				B26AD26B1F670D92001DA6F3 /* Assets.xcassets */,
+				B26AD26D1F670D92001DA6F3 /* LaunchScreen.storyboard */,
+				B26AD2701F670D92001DA6F3 /* Info.plist */,
+			);
+			path = "Inventário UFRGS";
+			sourceTree = "<group>";
+		};
+		B26AD2781F670D92001DA6F3 /* Inventário UFRGSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B26AD2791F670D92001DA6F3 /* Inventa_rio_UFRGSTests.swift */,
+				B26AD27B1F670D92001DA6F3 /* Info.plist */,
+			);
+			path = "Inventário UFRGSTests";
+			sourceTree = "<group>";
+		};
+		B26AD2831F670D92001DA6F3 /* Inventário UFRGSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B26AD2841F670D92001DA6F3 /* Inventa_rio_UFRGSUITests.swift */,
+				B26AD2861F670D92001DA6F3 /* Info.plist */,
+			);
+			path = "Inventário UFRGSUITests";
+			sourceTree = "<group>";
+		};
+		B29C83BB1F7ADE8700D251DD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B2DAB6141F69C35F0076F991 /* predios.json */,
+				B2C84EAA1F7D7C4B005F28AB /* orgaos.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26AD2601F670D92001DA6F3 /* Inventário UFRGS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26AD2891F670D92001DA6F3 /* Build configuration list for PBXNativeTarget "Inventário UFRGS" */;
+			buildPhases = (
+				E271E980B0E8566E88670176 /* [CP] Check Pods Manifest.lock */,
+				B26AD25D1F670D92001DA6F3 /* Sources */,
+				B26AD25E1F670D92001DA6F3 /* Frameworks */,
+				B26AD25F1F670D92001DA6F3 /* Resources */,
+				FEC4B029C387ADCED8092EBE /* [CP] Embed Pods Frameworks */,
+				A4977E8CCF7486ED475ACEF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inventário UFRGS";
+			productName = "Inventário UFRGS";
+			productReference = B26AD2611F670D92001DA6F3 /* Inventário UFRGS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B26AD2741F670D92001DA6F3 /* Inventário UFRGSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26AD28C1F670D92001DA6F3 /* Build configuration list for PBXNativeTarget "Inventário UFRGSTests" */;
+			buildPhases = (
+				B26AD2711F670D92001DA6F3 /* Sources */,
+				B26AD2721F670D92001DA6F3 /* Frameworks */,
+				B26AD2731F670D92001DA6F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26AD2771F670D92001DA6F3 /* PBXTargetDependency */,
+			);
+			name = "Inventário UFRGSTests";
+			productName = "Inventário UFRGSTests";
+			productReference = B26AD2751F670D92001DA6F3 /* Inventário UFRGSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B26AD27F1F670D92001DA6F3 /* Inventário UFRGSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26AD28F1F670D92001DA6F3 /* Build configuration list for PBXNativeTarget "Inventário UFRGSUITests" */;
+			buildPhases = (
+				B26AD27C1F670D92001DA6F3 /* Sources */,
+				B26AD27D1F670D92001DA6F3 /* Frameworks */,
+				B26AD27E1F670D92001DA6F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26AD2821F670D92001DA6F3 /* PBXTargetDependency */,
+			);
+			name = "Inventário UFRGSUITests";
+			productName = "Inventário UFRGSUITests";
+			productReference = B26AD2801F670D92001DA6F3 /* Inventário UFRGSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26AD2591F670D91001DA6F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "CPD UFRGS";
+				TargetAttributes = {
+					B26AD2601F670D92001DA6F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TE8EPEUQM4;
+						ProvisioningStyle = Automatic;
+					};
+					B26AD2741F670D92001DA6F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TE8EPEUQM4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B26AD2601F670D92001DA6F3;
+					};
+					B26AD27F1F670D92001DA6F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TE8EPEUQM4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B26AD2601F670D92001DA6F3;
+					};
+				};
+			};
+			buildConfigurationList = B26AD25C1F670D92001DA6F3 /* Build configuration list for PBXProject "Inventário UFRGS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B26AD2581F670D91001DA6F3;
+			productRefGroup = B26AD2621F670D92001DA6F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26AD2601F670D92001DA6F3 /* Inventário UFRGS */,
+				B26AD2741F670D92001DA6F3 /* Inventário UFRGSTests */,
+				B26AD27F1F670D92001DA6F3 /* Inventário UFRGSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26AD25F1F670D92001DA6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26AD26F1F670D92001DA6F3 /* LaunchScreen.storyboard in Resources */,
+				B26AD26C1F670D92001DA6F3 /* Assets.xcassets in Resources */,
+				B2DAB6151F69C35F0076F991 /* predios.json in Resources */,
+				B26AD26A1F670D92001DA6F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26AD2731F670D92001DA6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26AD27E1F670D92001DA6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4977E8CCF7486ED475ACEF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inventário UFRGS/Pods-Inventário UFRGS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E271E980B0E8566E88670176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inventário UFRGS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC4B029C387ADCED8092EBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Inventário UFRGS/Pods-Inventário UFRGS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftOverlays/SwiftOverlays.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YNSearch/YNSearch.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOverlays.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNSearch.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inventário UFRGS/Pods-Inventário UFRGS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26AD25D1F670D92001DA6F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225FAD11F7AF215003113A9 /* ModernSearchBarModel.swift in Sources */,
+				B29C83BE1F7AE5C800D251DD /* SearchResultController.swift in Sources */,
+				B26AD2671F670D92001DA6F3 /* ViewController.swift in Sources */,
+				B2B8AEE51F7EEA700025E3D5 /* BemInfoController.swift in Sources */,
+				B2D0DDFA1F8414B70099CC77 /* PendenciasController.swift in Sources */,
+				B225FACF1F7AF215003113A9 /* ModernSearchBarDelegate.swift in Sources */,
+				B225FAD31F7AF215003113A9 /* ModernSearchBarIcon.swift in Sources */,
+				B2D0DDFC1F841A030099CC77 /* PendenciaModel.swift in Sources */,
+				C138EACF1F848C2F00956E67 /* IdentificacaoModel.swift in Sources */,
+				B2C84EAC1F7D81EC005F28AB /* API.swift in Sources */,
+				C15989701F7709A70066D7BE /* RoomController.swift in Sources */,
+				B27A53351F8448E600382687 /* IdentificacaoController.swift in Sources */,
+				C138EAD11F8498B500956E67 /* FinalizarController.swift in Sources */,
+				B225FAD01F7AF215003113A9 /* ModernSearchBar.swift in Sources */,
+				B2C84EAE1F7D84E4005F28AB /* UserDef.swift in Sources */,
+				C15989721F7710FC0066D7BE /* SearchCell.swift in Sources */,
+				B225FAD21F7AF215003113A9 /* ModernSearchBarCell.swift in Sources */,
+				B26AD2651F670D92001DA6F3 /* AppDelegate.swift in Sources */,
+				B26AD2951F672F7B001DA6F3 /* SearchController.swift in Sources */,
+				B2B8AEE31F7ECEE10025E3D5 /* BemModel.swift in Sources */,
+				B225FAD61F7C45CE003113A9 /* PredioModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26AD2711F670D92001DA6F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26AD27A1F670D92001DA6F3 /* Inventa_rio_UFRGSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26AD27C1F670D92001DA6F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26AD2851F670D92001DA6F3 /* Inventa_rio_UFRGSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B26AD2771F670D92001DA6F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B26AD2601F670D92001DA6F3 /* Inventário UFRGS */;
+			targetProxy = B26AD2761F670D92001DA6F3 /* PBXContainerItemProxy */;
+		};
+		B26AD2821F670D92001DA6F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B26AD2601F670D92001DA6F3 /* Inventário UFRGS */;
+			targetProxy = B26AD2811F670D92001DA6F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B26AD2681F670D92001DA6F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26AD2691F670D92001DA6F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B26AD26D1F670D92001DA6F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26AD26E1F670D92001DA6F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26AD2871F670D92001DA6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26AD2881F670D92001DA6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26AD28A1F670D92001DA6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25751B67BE731CD7A6F9A087 /* Pods-Inventário UFRGS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TE8EPEUQM4;
+				INFOPLIST_FILE = "Inventário UFRGS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UFRGS.br.Inventa-rio-UFRGS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B26AD28B1F670D92001DA6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E545225EC1C4D921C798E877 /* Pods-Inventário UFRGS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TE8EPEUQM4;
+				INFOPLIST_FILE = "Inventário UFRGS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UFRGS.br.Inventa-rio-UFRGS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B26AD28D1F670D92001DA6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TE8EPEUQM4;
+				INFOPLIST_FILE = "Inventário UFRGSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UFRGS.br.Inventa-rio-UFRGSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventário UFRGS.app/Inventário UFRGS";
+			};
+			name = Debug;
+		};
+		B26AD28E1F670D92001DA6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TE8EPEUQM4;
+				INFOPLIST_FILE = "Inventário UFRGSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UFRGS.br.Inventa-rio-UFRGSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventário UFRGS.app/Inventário UFRGS";
+			};
+			name = Release;
+		};
+		B26AD2901F670D92001DA6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TE8EPEUQM4;
+				INFOPLIST_FILE = "Inventário UFRGSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UFRGS.br.Inventa-rio-UFRGSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Inventário UFRGS";
+			};
+			name = Debug;
+		};
+		B26AD2911F670D92001DA6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TE8EPEUQM4;
+				INFOPLIST_FILE = "Inventário UFRGSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UFRGS.br.Inventa-rio-UFRGSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Inventário UFRGS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26AD25C1F670D92001DA6F3 /* Build configuration list for PBXProject "Inventário UFRGS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26AD2871F670D92001DA6F3 /* Debug */,
+				B26AD2881F670D92001DA6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26AD2891F670D92001DA6F3 /* Build configuration list for PBXNativeTarget "Inventário UFRGS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26AD28A1F670D92001DA6F3 /* Debug */,
+				B26AD28B1F670D92001DA6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26AD28C1F670D92001DA6F3 /* Build configuration list for PBXNativeTarget "Inventário UFRGSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26AD28D1F670D92001DA6F3 /* Debug */,
+				B26AD28E1F670D92001DA6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26AD28F1F670D92001DA6F3 /* Build configuration list for PBXNativeTarget "Inventário UFRGSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26AD2901F670D92001DA6F3 /* Debug */,
+				B26AD2911F670D92001DA6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26AD2591F670D91001DA6F3 /* Project object */;
+}

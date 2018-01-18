@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Inventário UFRGS.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>8DC1CC022322E25D29E1D085E58974488FD7CD91</string>
+				<key>dateExpires</key>
+				<string>19/04/18</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>8DC1CC022322E25D29E1D085E58974488FD7CD91</string>
+						<key>dateExpires</key>
+						<string>19/04/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>TE8EPEUQM4</string>
+						<key>name</key>
+						<string>Universidade Federal do Rio Grande do Sul</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>8DC1CC022322E25D29E1D085E58974488FD7CD91</string>
+						<key>dateExpires</key>
+						<string>19/04/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>BarcodeScanner.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>TE8EPEUQM4</string>
+						<key>name</key>
+						<string>Universidade Federal do Rio Grande do Sul</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>8DC1CC022322E25D29E1D085E58974488FD7CD91</string>
+						<key>dateExpires</key>
+						<string>19/04/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftOverlays.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>TE8EPEUQM4</string>
+						<key>name</key>
+						<string>Universidade Federal do Rio Grande do Sul</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>8DC1CC022322E25D29E1D085E58974488FD7CD91</string>
+						<key>dateExpires</key>
+						<string>19/04/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftyJSON.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>TE8EPEUQM4</string>
+						<key>name</key>
+						<string>Universidade Federal do Rio Grande do Sul</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>8DC1CC022322E25D29E1D085E58974488FD7CD91</string>
+						<key>dateExpires</key>
+						<string>19/04/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>YNSearch.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>TE8EPEUQM4</string>
+						<key>name</key>
+						<string>Universidade Federal do Rio Grande do Sul</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>TE8EPEUQM4.UFRGS.br.Inventa-rio-UFRGS</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>TE8EPEUQM4</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>TE8EPEUQM4.UFRGS.br.Inventa-rio-UFRGS</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Inventário UFRGS.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>e10d31d1-d3e6-45a7-89eb-45eb305b4efb</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>TE8EPEUQM4</string>
+				<key>name</key>
+				<string>Universidade Federal do Rio Grande do Sul</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
