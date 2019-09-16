@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1406468421346773000DB942 /* BemNTRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1406468321346773000DB942 /* BemNTRController.swift */; };
+		1446D7E6213EE62500A55926 /* BemSemPlacaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7E5213EE62500A55926 /* BemSemPlacaController.swift */; };
+		1446D7EA213F020D00A55926 /* UIAlertMultiLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7E9213F020D00A55926 /* UIAlertMultiLine.swift */; };
+		1446D7EB213F020D00A55926 /* UIAlertMultiLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7E9213F020D00A55926 /* UIAlertMultiLine.swift */; };
+		1446D7EC213F020D00A55926 /* UIAlertMultiLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7E9213F020D00A55926 /* UIAlertMultiLine.swift */; };
+		1446D7EE213F170100A55926 /* SituacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7ED213F170100A55926 /* SituacaoModel.swift */; };
+		1446D7EF213F170100A55926 /* SituacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7ED213F170100A55926 /* SituacaoModel.swift */; };
+		1446D7F0213F170100A55926 /* SituacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7ED213F170100A55926 /* SituacaoModel.swift */; };
+		1446D7F2213F1F2200A55926 /* EstadoConservacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F1213F1F2200A55926 /* EstadoConservacaoModel.swift */; };
+		1446D7F3213F1F2200A55926 /* EstadoConservacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F1213F1F2200A55926 /* EstadoConservacaoModel.swift */; };
+		1446D7F4213F1F2200A55926 /* EstadoConservacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F1213F1F2200A55926 /* EstadoConservacaoModel.swift */; };
+		1446D7F621417B9500A55926 /* DescricaoBemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F521417B9500A55926 /* DescricaoBemModel.swift */; };
+		1446D7F721417B9500A55926 /* DescricaoBemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F521417B9500A55926 /* DescricaoBemModel.swift */; };
+		1446D7F821417B9500A55926 /* DescricaoBemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F521417B9500A55926 /* DescricaoBemModel.swift */; };
+		1446D7FA2141999A00A55926 /* SearchButtonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F92141999A00A55926 /* SearchButtonsCell.swift */; };
+		1446D7FB2141999A00A55926 /* SearchButtonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F92141999A00A55926 /* SearchButtonsCell.swift */; };
+		1446D7FC2141999A00A55926 /* SearchButtonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446D7F92141999A00A55926 /* SearchButtonsCell.swift */; };
+		1483E8AB212DCD9A00C285C9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483E8AA212DCD9A00C285C9 /* Helper.swift */; };
 		B225FACF1F7AF215003113A9 /* ModernSearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FACA1F7AF215003113A9 /* ModernSearchBarDelegate.swift */; };
 		B225FAD01F7AF215003113A9 /* ModernSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FACB1F7AF215003113A9 /* ModernSearchBar.swift */; };
 		B225FAD11F7AF215003113A9 /* ModernSearchBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225FACC1F7AF215003113A9 /* ModernSearchBarModel.swift */; };
@@ -56,6 +74,14 @@
 
 /* Begin PBXFileReference section */
 		064E9CE08FF73B0B019805DD /* Pods_Inventa_rio_UFRGS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inventa_rio_UFRGS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1406468321346773000DB942 /* BemNTRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemNTRController.swift; sourceTree = "<group>"; };
+		1446D7E5213EE62500A55926 /* BemSemPlacaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemSemPlacaController.swift; sourceTree = "<group>"; };
+		1446D7E9213F020D00A55926 /* UIAlertMultiLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertMultiLine.swift; sourceTree = "<group>"; };
+		1446D7ED213F170100A55926 /* SituacaoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituacaoModel.swift; sourceTree = "<group>"; };
+		1446D7F1213F1F2200A55926 /* EstadoConservacaoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadoConservacaoModel.swift; sourceTree = "<group>"; };
+		1446D7F521417B9500A55926 /* DescricaoBemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescricaoBemModel.swift; sourceTree = "<group>"; };
+		1446D7F92141999A00A55926 /* SearchButtonsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButtonsCell.swift; sourceTree = "<group>"; };
+		1483E8AA212DCD9A00C285C9 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		25751B67BE731CD7A6F9A087 /* Pods-Inventário UFRGS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventário UFRGS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inventário UFRGS/Pods-Inventário UFRGS.debug.xcconfig"; sourceTree = "<group>"; };
 		B225FACA1F7AF215003113A9 /* ModernSearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSearchBarDelegate.swift; sourceTree = "<group>"; };
 		B225FACB1F7AF215003113A9 /* ModernSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSearchBar.swift; sourceTree = "<group>"; };
@@ -137,6 +163,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1446D7E1213EE41900A55926 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B26AD2661F670D92001DA6F3 /* ViewController.swift */,
+				B27A53341F8448E600382687 /* IdentificacaoController.swift */,
+				C138EAD01F8498B500956E67 /* FinalizarController.swift */,
+				C159896F1F7709A70066D7BE /* RoomController.swift */,
+				B29C83BD1F7AE5C700D251DD /* SearchResultController.swift */,
+				B26AD2941F672F7B001DA6F3 /* SearchController.swift */,
+				B2B8AEE41F7EEA700025E3D5 /* BemInfoController.swift */,
+				B2D0DDF91F8414B70099CC77 /* PendenciasController.swift */,
+				1406468321346773000DB942 /* BemNTRController.swift */,
+				1446D7E5213EE62500A55926 /* BemSemPlacaController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1446D7E2213EE42000A55926 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B225FAD51F7C45CE003113A9 /* PredioModel.swift */,
+				B2B8AEE21F7ECEE10025E3D5 /* BemModel.swift */,
+				C138EACE1F848C2F00956E67 /* IdentificacaoModel.swift */,
+				B2D0DDFB1F841A030099CC77 /* PendenciaModel.swift */,
+				B2C84EAD1F7D84E4005F28AB /* UserDef.swift */,
+				1446D7ED213F170100A55926 /* SituacaoModel.swift */,
+				1446D7F1213F1F2200A55926 /* EstadoConservacaoModel.swift */,
+				1446D7F521417B9500A55926 /* DescricaoBemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1446D7E3213EE45300A55926 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C15989711F7710FC0066D7BE /* SearchCell.swift */,
+				1446D7E9213F020D00A55926 /* UIAlertMultiLine.swift */,
+				1446D7F92141999A00A55926 /* SearchButtonsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B225FAD41F7AF46A003113A9 /* ModernSearchBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,25 +242,15 @@
 		B26AD2631F670D92001DA6F3 /* Inventário UFRGS */ = {
 			isa = PBXGroup;
 			children = (
-				B29C83BB1F7ADE8700D251DD /* Data */,
+				1446D7E2213EE42000A55926 /* Model */,
+				1446D7E3213EE45300A55926 /* View */,
+				1446D7E1213EE41900A55926 /* Controller */,
+				1483E8AA212DCD9A00C285C9 /* Helper.swift */,
 				B2C84EAB1F7D81EC005F28AB /* API.swift */,
-				B2C84EAD1F7D84E4005F28AB /* UserDef.swift */,
 				B26AD2641F670D92001DA6F3 /* AppDelegate.swift */,
-				C15989711F7710FC0066D7BE /* SearchCell.swift */,
-				B225FAD51F7C45CE003113A9 /* PredioModel.swift */,
-				B2B8AEE21F7ECEE10025E3D5 /* BemModel.swift */,
-				C138EACE1F848C2F00956E67 /* IdentificacaoModel.swift */,
-				B26AD2661F670D92001DA6F3 /* ViewController.swift */,
-				B27A53341F8448E600382687 /* IdentificacaoController.swift */,
-				B2D0DDFB1F841A030099CC77 /* PendenciaModel.swift */,
-				C138EAD01F8498B500956E67 /* FinalizarController.swift */,
-				C159896F1F7709A70066D7BE /* RoomController.swift */,
-				B29C83BD1F7AE5C700D251DD /* SearchResultController.swift */,
-				B26AD2941F672F7B001DA6F3 /* SearchController.swift */,
-				B2B8AEE41F7EEA700025E3D5 /* BemInfoController.swift */,
-				B2D0DDF91F8414B70099CC77 /* PendenciasController.swift */,
-				B225FAD41F7AF46A003113A9 /* ModernSearchBar */,
 				B26AD2681F670D92001DA6F3 /* Main.storyboard */,
+				B225FAD41F7AF46A003113A9 /* ModernSearchBar */,
+				B29C83BB1F7ADE8700D251DD /* Data */,
 				B26AD26B1F670D92001DA6F3 /* Assets.xcassets */,
 				B26AD26D1F670D92001DA6F3 /* LaunchScreen.storyboard */,
 				B26AD2701F670D92001DA6F3 /* Info.plist */,
@@ -299,6 +357,7 @@
 					B26AD2601F670D92001DA6F3 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = TE8EPEUQM4;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					B26AD2741F670D92001DA6F3 = {
@@ -439,9 +498,14 @@
 				B225FAD31F7AF215003113A9 /* ModernSearchBarIcon.swift in Sources */,
 				B2D0DDFC1F841A030099CC77 /* PendenciaModel.swift in Sources */,
 				C138EACF1F848C2F00956E67 /* IdentificacaoModel.swift in Sources */,
+				1446D7F2213F1F2200A55926 /* EstadoConservacaoModel.swift in Sources */,
 				B2C84EAC1F7D81EC005F28AB /* API.swift in Sources */,
 				C15989701F7709A70066D7BE /* RoomController.swift in Sources */,
+				1483E8AB212DCD9A00C285C9 /* Helper.swift in Sources */,
+				1446D7E6213EE62500A55926 /* BemSemPlacaController.swift in Sources */,
 				B27A53351F8448E600382687 /* IdentificacaoController.swift in Sources */,
+				1446D7EA213F020D00A55926 /* UIAlertMultiLine.swift in Sources */,
+				1446D7F621417B9500A55926 /* DescricaoBemModel.swift in Sources */,
 				C138EAD11F8498B500956E67 /* FinalizarController.swift in Sources */,
 				B225FAD01F7AF215003113A9 /* ModernSearchBar.swift in Sources */,
 				B2C84EAE1F7D84E4005F28AB /* UserDef.swift in Sources */,
@@ -449,7 +513,10 @@
 				B225FAD21F7AF215003113A9 /* ModernSearchBarCell.swift in Sources */,
 				B26AD2651F670D92001DA6F3 /* AppDelegate.swift in Sources */,
 				B26AD2951F672F7B001DA6F3 /* SearchController.swift in Sources */,
+				1446D7FA2141999A00A55926 /* SearchButtonsCell.swift in Sources */,
+				1406468421346773000DB942 /* BemNTRController.swift in Sources */,
 				B2B8AEE31F7ECEE10025E3D5 /* BemModel.swift in Sources */,
+				1446D7EE213F170100A55926 /* SituacaoModel.swift in Sources */,
 				B225FAD61F7C45CE003113A9 /* PredioModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +525,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1446D7F3213F1F2200A55926 /* EstadoConservacaoModel.swift in Sources */,
+				1446D7EB213F020D00A55926 /* UIAlertMultiLine.swift in Sources */,
+				1446D7EF213F170100A55926 /* SituacaoModel.swift in Sources */,
+				1446D7FB2141999A00A55926 /* SearchButtonsCell.swift in Sources */,
+				1446D7F721417B9500A55926 /* DescricaoBemModel.swift in Sources */,
 				B26AD27A1F670D92001DA6F3 /* Inventa_rio_UFRGSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +538,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1446D7F4213F1F2200A55926 /* EstadoConservacaoModel.swift in Sources */,
+				1446D7EC213F020D00A55926 /* UIAlertMultiLine.swift in Sources */,
+				1446D7F0213F170100A55926 /* SituacaoModel.swift in Sources */,
+				1446D7FC2141999A00A55926 /* SearchButtonsCell.swift in Sources */,
+				1446D7F821417B9500A55926 /* DescricaoBemModel.swift in Sources */,
 				B26AD2851F670D92001DA6F3 /* Inventa_rio_UFRGSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,9 +683,10 @@
 				DEVELOPMENT_TEAM = TE8EPEUQM4;
 				INFOPLIST_FILE = "Inventário UFRGS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "UFRGS.br.Inventa-rio-UFRGS";
+				PRODUCT_BUNDLE_IDENTIFIER = cpd.ufrgs.br.inventario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -620,9 +698,10 @@
 				DEVELOPMENT_TEAM = TE8EPEUQM4;
 				INFOPLIST_FILE = "Inventário UFRGS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "UFRGS.br.Inventa-rio-UFRGS";
+				PRODUCT_BUNDLE_IDENTIFIER = cpd.ufrgs.br.inventario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

@@ -48,8 +48,8 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     public var suggestionsView_maxHeight: CGFloat!
     public var suggestionsView_backgroundColor: UIColor?
     public var suggestionsView_contentViewColor: UIColor?
-    public var suggestionsView_separatorStyle: UITableViewCellSeparatorStyle = .none
-    public var suggestionsView_selectionStyle: UITableViewCellSelectionStyle = UITableViewCellSelectionStyle.none
+    public var suggestionsView_separatorStyle: UITableViewCell.SeparatorStyle = .none
+    public var suggestionsView_selectionStyle: UITableViewCell.SelectionStyle = UITableViewCell.SelectionStyle.none
     public var suggestionsView_verticalSpaceWithSearchBar: CGFloat = 3
     
     public var suggestionsView_searchIcon_height: CGFloat = 17
@@ -57,7 +57,8 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     public var suggestionsView_searchIcon_isRound = true
     
     public var suggestionsView_spaceWithKeyboard:CGFloat = 3
-    
+  
+    private var shouldHideView = true
   
     //MARK: INITIALISERS
     required public init(coder aDecoder: NSCoder) {
@@ -90,7 +91,7 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
         self.suggestionsView.delegate = self
         self.suggestionsView.dataSource = self
         self.suggestionsView.register(ModernSearchBarCell.self, forCellReuseIdentifier: "cell")
-        self.suggestionsView.rowHeight = UITableViewAutomaticDimension
+        self.suggestionsView.rowHeight = UITableView.automaticDimension
         self.suggestionsView.estimatedRowHeight = 100
         self.suggestionsView.separatorStyle = self.suggestionsView_separatorStyle
         if let backgroundColor = suggestionsView_backgroundColor { self.suggestionsView.backgroundColor = backgroundColor }
@@ -168,12 +169,18 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     
     public func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
         if let shouldBeginEditing = self.delegateModernSearchBar?.searchBarShouldBeginEditing?(searchBar) {
+            
+            if shouldBeginEditing {
+                self.openSuggestionsView()
+            }
+            
             return shouldBeginEditing
+            
         } else {
+            self.openSuggestionsView()
             return true
         }
     }
-    
     
     // --------------------------------
     // ACTIONS
@@ -183,6 +190,7 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     func onClickShadowView(_ sender:UITapGestureRecognizer){
         self.delegateModernSearchBar?.onClickShadowView?(shadowView: self.suggestionsShadow)
         self.closeSuggestionsView()
+        self.endEditing(true)
     }
     
     ///Remove focus when you tap outside the searchbar
@@ -273,6 +281,12 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
                 DispatchQueue.main.async {
                     self.suggestionListFiltred.removeAll()
                     self.suggestionListFiltred.append(contentsOf: suggestionListFiltredTmp)
+                    
+                    // se deve mostrar os itens mesmo quando não há nada no campo de pesquisa (e não houver nada no campo de pesquisa)
+                    if (!self.shouldHideView && caracters.count == 0) {
+                        self.suggestionListFiltred = self.suggestionList
+                    }
+                    
                     self.updateAfterSearch(caracters: caracters)
                 }
             }
@@ -307,7 +321,13 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     private func updateAfterSearch(caracters: String){
         self.suggestionsView.reloadData()
         self.updateSizeSuggestionsView()
-        caracters.isEmpty ? self.closeSuggestionsView() : self.openSuggestionsView()
+        
+        if caracters.isEmpty && self.shouldHideView {
+            self.closeSuggestionsView()
+            self.endEditing(true)
+        } else {
+            self.openSuggestionsView()
+        }
     }
     
     // --------------------------------
@@ -327,7 +347,6 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
         if (self.haveToOpenSuggestionView()){
             if (!self.isSuggestionsViewOpened){
                 self.animationOpening()
-                
                 self.addViewToParent(view: self.suggestionsShadow)
                 self.addViewToParent(view: self.suggestionsView)
                 self.isSuggestionsViewOpened = true
@@ -366,7 +385,7 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     }
     
     private func getSuggestionsViewY() -> CGFloat {
-        return self.getShadowY().subtracting(self.suggestionsView_verticalSpaceWithSearchBar)
+        return self.getShadowY() - self.suggestionsView_verticalSpaceWithSearchBar
     }
     
     private func getSuggestionsViewWidth() -> CGFloat {
@@ -382,7 +401,7 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     }
     
     private func getShadowY() -> CGFloat {
-        return self.getGlobalPointEditText().y.adding(self.getEditText().frame.height)
+        return self.getGlobalPointEditText().y + self.getEditText().frame.height
     }
     
     private func getShadowHeight() -> CGFloat {
@@ -421,10 +440,10 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     
     private func getEstimateHeightSuggestionsView() -> CGFloat {
         return self.getViewTopController().frame.height
-            .subtracting(self.getShadowY())
-            .subtracting(self.keyboardHeight)
-            .subtracting(self.suggestionsView_spaceWithKeyboard)
-    }    
+            - self.getShadowY()
+            - self.keyboardHeight
+            - self.suggestionsView_spaceWithKeyboard
+    }
     
     // --------------------------------
     // UTILS
@@ -486,22 +505,26 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     }
     
     override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if (keyPath == "frame"){
+        if (keyPath == "frame") {
             self.closeSuggestionsView()
             self.configureViews()
+        }
+        
+        if (!self.shouldHideView) {
+            self.updateAfterSearch(caracters: ".")
         }
     }
     
     // ---------------
     
     private func interceptKeyboardChange(){
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
     @objc private func keyboardWillShow(notification: NSNotification) {
         let userInfo = notification.userInfo as! [String: NSObject] as NSDictionary
-        let keyboardFrame = userInfo.value(forKey: UIKeyboardFrameEndUserInfoKey) as! CGRect
+        let keyboardFrame = userInfo.value(forKey: UIResponder.keyboardFrameEndUserInfoKey) as! CGRect
         let keyboardHeight = keyboardFrame.height
         
         self.keyboardHeight = keyboardHeight
@@ -516,7 +539,7 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     // ---------------
     
     private func interceptMemoryWarning(){
-        NotificationCenter.default.addObserver(self, selector: #selector(didReceiveMemoryWarning(notification:)), name: NSNotification.Name.UIApplicationDidReceiveMemoryWarning, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(didReceiveMemoryWarning(notification:)), name: UIApplication.didReceiveMemoryWarningNotification, object: nil)
     }
     
     @objc private func didReceiveMemoryWarning(notification: NSNotification) {
@@ -529,6 +552,15 @@ public class ModernSearchBar: UISearchBar, UISearchBarDelegate, UITableViewDataS
     
     public func getSuggestionsView() -> UITableView {
         return self.suggestionsView
+    }
+    
+    public func startListingAll() {
+        self.suggestionListFiltred = self.suggestionList
+        self.shouldHideView = false
+
+        if self.suggestionsView == nil {
+            self.configureViews()
+        }
     }
     
 }

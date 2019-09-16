@@ -19,28 +19,12 @@ class PendenciasController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        apiCalls.getPendencias{(responseObject, error) in
-            self.pendencias = responseObject
-            self.tableView.reloadData()
-        }
-        
-        pendButt = setButton(button: pendButt)
-        
         self.title = "Editar pendências"
         
-        
+        Helper.configureButton(button: pendButt)
     }
     
-    func setButton(button: UIButton) -> UIButton{
-        
-        button.layer.cornerRadius = 20
-        button.layer.borderWidth = 1
-        button.layer.borderColor = UIColor.white.cgColor
-        
-        return button
-    }
     @IBAction func finalAction(_ sender: Any) {
-        
         novaConsulta = 1
         _ = navigationController?.popToRootViewController(animated: true)
     }
@@ -63,7 +47,7 @@ class PendenciasController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -74,8 +58,8 @@ class PendenciasController: UITableViewController {
             self.removeAllOverlays()
             novaConsulta = 1
             
-            let alert = UIAlertController(title: "Pendências", message: "Pendência adicionada com sucesso!", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: {(UIAlertAction) in
+            let alert = UIAlertController(title: "Pendências", message: "Pendência adicionada com sucesso!", preferredStyle:UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: {(UIAlertAction) in
                // _ = self.navigationController?.popToRootViewController(animated: true)
                 
             }))

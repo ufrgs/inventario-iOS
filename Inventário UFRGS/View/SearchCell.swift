@@ -15,7 +15,6 @@ class SearchCell: UITableViewCell {
     @IBOutlet weak var nameName: UILabel!
     @IBOutlet weak var codeLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var clickLabel: UILabel!
-    
+    @IBOutlet weak var arrowImageView: UIImageView!
     
 }
