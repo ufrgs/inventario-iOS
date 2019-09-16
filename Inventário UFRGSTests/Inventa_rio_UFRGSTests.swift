@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Inventa_rio_UFRGS
+//@testable import Inventa_rio_UFRGS
 
 class Inventa_rio_UFRGSTests: XCTestCase {
     

@@ -15,7 +15,7 @@ public class ModernSearchBarCell: UITableViewCell {
     let imgModernSearchBar = UIImageView()
     var labelModelSearchBar = UILabel()
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.setup()
     }
@@ -49,27 +49,27 @@ public class ModernSearchBarCell: UITableViewCell {
         ///Image constraints
         let verticalImageConstraint = NSLayoutConstraint(item: self.imgModernSearchBar, attribute:.centerYWithinMargins, relatedBy: .equal, toItem: self.contentView, attribute: .centerYWithinMargins, multiplier: 1.0, constant: 0)
         let topImageConstraint = NSLayoutConstraint(item: self.imgModernSearchBar, attribute:.top, relatedBy: .greaterThanOrEqual, toItem: self.contentView, attribute: .top, multiplier: 1.0, constant: ModernSearchBarCell.defaultMargin)
-        topImageConstraint.priority = UILayoutPriorityDefaultLow
+        topImageConstraint.priority = UILayoutPriority.defaultLow
         let bottomImageConstraint = NSLayoutConstraint(item: self.imgModernSearchBar, attribute:.bottom, relatedBy: .lessThanOrEqual, toItem: self.contentView, attribute: .bottom, multiplier: 1.0, constant: ModernSearchBarCell.defaultMargin)
-        bottomImageConstraint.priority = UILayoutPriorityDefaultLow
+        bottomImageConstraint.priority = UILayoutPriority.defaultLow
         let leftImageConstraint = NSLayoutConstraint(item: self.imgModernSearchBar, attribute:.left, relatedBy: .equal, toItem: self.contentView, attribute: .left, multiplier: 1.0, constant:  ModernSearchBarCell.defaultMargin)
-        leftImageConstraint.priority = UILayoutPriorityDefaultHigh
+        leftImageConstraint.priority = UILayoutPriority.defaultHigh
         let heightImageConstraint = NSLayoutConstraint(item: self.imgModernSearchBar, attribute:.height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: heightImage)
         let widthImageConstraint = NSLayoutConstraint(item: self.imgModernSearchBar, attribute:.width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: widthImage)        
         
         
         ///Label constraints
         let topLabelConstraint = NSLayoutConstraint(item: self.labelModelSearchBar, attribute:.top, relatedBy: .greaterThanOrEqual, toItem: self.contentView, attribute: .top, multiplier: 1.0, constant:  ModernSearchBarCell.defaultMargin)
-        topLabelConstraint.priority = UILayoutPriorityDefaultHigh
+        topLabelConstraint.priority = UILayoutPriority.defaultHigh
         let bottomLabelConstraint = NSLayoutConstraint(item: self.labelModelSearchBar, attribute:.bottom, relatedBy: .lessThanOrEqual, toItem: self.contentView, attribute: .bottom, multiplier: 1.0, constant:  ModernSearchBarCell.defaultMargin)
-        bottomLabelConstraint.priority = UILayoutPriorityDefaultHigh
+        bottomLabelConstraint.priority = UILayoutPriority.defaultHigh
         let verticalLabelConstraint = NSLayoutConstraint(item: self.labelModelSearchBar, attribute:.centerYWithinMargins, relatedBy: .equal, toItem: self.contentView, attribute: .centerYWithinMargins, multiplier: 1.0, constant: 0)
         let leftLabelConstraint = NSLayoutConstraint(item: self.labelModelSearchBar, attribute:.left, relatedBy: .equal, toItem: self.imgModernSearchBar, attribute: .right, multiplier: 1.0, constant:  ModernSearchBarCell.defaultMargin)
-        leftLabelConstraint.priority = UILayoutPriorityDefaultHigh
+        leftLabelConstraint.priority = UILayoutPriority.defaultHigh
         let leftLabelConstraintIfImageNil = NSLayoutConstraint(item: self.labelModelSearchBar, attribute:.left, relatedBy: .equal, toItem: self.contentView, attribute: .left, multiplier: 1.0, constant:  ModernSearchBarCell.defaultMargin)
-        leftLabelConstraintIfImageNil.priority = UILayoutPriorityDefaultLow
+        leftLabelConstraintIfImageNil.priority = UILayoutPriority.defaultLow
         let rightLabelConstraint = NSLayoutConstraint(item: self.labelModelSearchBar, attribute:.right, relatedBy: .equal, toItem: self.contentView, attribute: .right, multiplier: 1.0, constant:  ModernSearchBarCell.defaultMargin)
-        rightLabelConstraint.priority = UILayoutPriorityDefaultLow
+        rightLabelConstraint.priority = UILayoutPriority.defaultLow
         
 
         NSLayoutConstraint.activate([verticalImageConstraint, topImageConstraint, bottomImageConstraint, leftImageConstraint,heightImageConstraint, widthImageConstraint,
@@ -95,7 +95,7 @@ public class ModernSearchBarCell: UITableViewCell {
         }
         
         if (isImageRound){
-            self.imgModernSearchBar.layer.cornerRadius = heightImage.divided(by: 2)
+            self.imgModernSearchBar.layer.cornerRadius = heightImage / 2
             self.imgModernSearchBar.clipsToBounds = true
         }
     }
@@ -103,8 +103,8 @@ public class ModernSearchBarCell: UITableViewCell {
     ///Otherwise constaint on label doesn't works...
     public func configureWidthMaxLabel(suggestionsViewWidth: CGFloat, searchImageWidth: CGFloat) {
         var widthMax: CGFloat = suggestionsViewWidth
-        widthMax.subtract(ModernSearchBarCell.defaultMargin.multiplied(by: 3))
-        widthMax.subtract(searchImageWidth)
+        widthMax -= ModernSearchBarCell.defaultMargin * 3
+        widthMax -= searchImageWidth
         self.labelModelSearchBar.preferredMaxLayoutWidth = widthMax
     }
     

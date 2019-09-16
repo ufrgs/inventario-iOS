@@ -11,111 +11,56 @@ import Alamofire
 import SwiftyJSON
 import UIKit
 
-var error_code = ""
-var code = ""
 class API: NSObject {
     
     let APIURL = ""
+    var error_code = ""
+    var code = ""
     
-    func getEspacosFisicos(predio: String, completionHandler: @escaping ([PredioModel], Error?) -> ()) {
-        espacosFisicos("orders", predio: predio, completionHandler: completionHandler  )
-    }
-    func getInfoBem(nroPatrimonio: String, completionHandler: @escaping (BemModel, Error?) -> ()) {
-        infoBem("orders", nroPatrimonio: nroPatrimonio, completionHandler: completionHandler  )
-    }
+    // --------------------------------
+    // PUBLIC METHODS
+    // --------------------------------
     
-    func getPendencias(completionHandler: @escaping ([PendenciaModel], Error?) -> ()) {
-        pendencias("orders", completionHandler: completionHandler)
-    }
+    func getEspacosFisicos(predio: String, completionHandler: @escaping ([PredioModel], Error?) -> ()) {}
+    func getInfoBem(nroPatrimonio: String, completionHandler: @escaping (BemModel, Error?) -> ()) {}
+    func getPendencias(completionHandler: @escaping ([PendenciaModel], Error?) -> ()) {}
+    func postColetaInventario(infoBem: BemModel, completionHandler: @escaping (String, Error?) -> ()) {}
+    func getOrders(completionHandler: @escaping (Bool?, Error?) -> (), id: String, pass: String) {}
+    func getPessoa(completionHandler: @escaping (IdentificacaoModel, Error?) -> ()) {}
+    func postPendencia(seq: String, pend: String, completionHandler: @escaping (Bool?, Error?) -> ()) {}
+    func getPessoaBasico(cartao: String, completionHandler: @escaping (IdentificacaoModel, Error?) -> ()) {}
+    func getPessoasBasico(nome: String, completionHandler: @escaping ([IdentificacaoModel], Error?) -> ()) {}
+    func getLocais(completionHandler: @escaping ([PredioModel], Error?) -> ()) {}
+    func getPredios(completionHandler: @escaping ([PredioModel], Error?) -> ()) {}
+    func getSituacoesBens(completionHandler: @escaping ([SituacaoModel], Error?) -> ()) {}
+    func getEstadosConservacaoBens(completionHandler: @escaping ([EstadoConservacaoModel], Error?) -> ()) {}
+    func getOrgaoDiretor(codOrgao: String, completionHandler: @escaping (IdentificacaoModel, Error?) -> ()) {}
+    func getBemDescricoes(completionHandler: @escaping ([DescricaoBemModel], Error?) -> ()) {}
     
-    func postColetaInventario(infoBem: BemModel, completionHandler: @escaping (String, Error?) -> ()) {
-        coletaInventario("orders", infoBem: infoBem, completionHandler: completionHandler)
-    }
+    // Attribute getters
     
-    func getOrders(completionHandler: @escaping (Bool?, Error?) -> (), id: String, pass: String) {
-        makeCall("orders", completionHandler: completionHandler, id: id, pass: pass)
-    }
-    
-    func getPessoa(completionHandler: @escaping (IdentificacaoModel, Error?) -> ()) {
-        pessoa("orders", completionHandler: completionHandler)
-    }
-    
-    func postPendencia(seq: String, pend: String, completionHandler: @escaping (Bool?, Error?) -> ()) {
-        pendencia("orders", seq: seq, pend: pend, completionHandler: completionHandler)
-    }
-    
-    func getPessoaBasico(cartao: String, completionHandler: @escaping (IdentificacaoModel, Error?) -> ()) {
-        pessoaBasico("orders", cartao: cartao, completionHandler: completionHandler  )
+    func getCode() -> String {
+        return self.code
     }
     
-    // #################################################################################
-    
-    func espacosFisicos(_ section: String, predio: String, completionHandler: @escaping ([PredioModel], Error?) -> ()) {
-        var espacosList = [PredioModel]()
-        completionHandler(espacosList, nil)
+    func getErrorCode() -> String {
+        return self.error_code
     }
     
-    func infoBem(_ section: String, nroPatrimonio: String, completionHandler: @escaping (BemModel, Error?) -> ()) {
-        let bemInfo = BemModel()
-        completionHandler(bemInfo, nil)
+    // --------------------------------
+    // AUXILIAR METHODS
+    // --------------------------------
+    
+    func prepareURLParameter(text: String) -> String {
+        var newText = text.folding(options: .diacriticInsensitive, locale: .current)
+        newText = newText.replacingOccurrences(of: " ", with: "+")
+        
+        let charactersToRemove = ["/", "\\", ".", "{", "}", "\'", "?", "=", "<", ">", "%", "&", "¥", "£", "€", "•", "^", "|"]
+        for char in charactersToRemove {
+            newText = newText.replacingOccurrences(of: char, with: "")
+        }
+        
+        return newText
     }
     
-    func pendencias(_ section: String, completionHandler: @escaping ([PendenciaModel], Error?) -> ()) {
-        var pendencias = [PendenciaModel]()
-        completionHandler(pendencias, nil)
-    }
-    
-    func coletaInventario(_ section: String, infoBem: BemModel, completionHandler: @escaping (String, Error?) -> ()) {
-        var jsonString = ""
-        completionHandler(jsonString, nil)
-    }
-    
-    func makeCall(_ section: String, completionHandler: @escaping (Bool, Error?) -> (), id: String, pass: String) {
-        var result: Bool = false
-        completionHandler(result, nil)
-    }
-    
-    
-    func pessoa(_ section: String, completionHandler: @escaping (IdentificacaoModel, Error?) -> ()) {
-        let ident = IdentificacaoModel()
-        completionHandler(ident, nil)
-    }
-    
-    func pendencia(_ section: String, seq: String, pend: String, completionHandler: @escaping (Bool, Error?) -> ()) {
-        var result: Bool = false
-        completionHandler(result, nil)
-    }
-    
-    func pessoaBasico(_ section: String, cartao: String, completionHandler: @escaping (IdentificacaoModel, Error?) -> ()) {
-        let ident = IdentificacaoModel()
-        completionHandler(ident, nil)
-    }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

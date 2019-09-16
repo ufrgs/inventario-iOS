@@ -1,2 +1,2009 @@
 {
+    "success": true,
+    "code": 200,
+    "message": "OK",
+    "data": {
+        "predios": [
+                    {
+                    "CodPredio": "169",
+                    "NomePredio": "Almoxarifado Central",
+                    "CodEspacoFisico": "169"
+                    },
+                    {
+                    "CodPredio": "394",
+                    "NomePredio": "Almoxarifado de Obras - Depósito de Materiais Inflamáveis",
+                    "CodEspacoFisico": "7957"
+                    },
+                    {
+                    "CodPredio": "201",
+                    "NomePredio": "Almoxarifado de Obras 1",
+                    "CodEspacoFisico": "3522"
+                    },
+                    {
+                    "CodPredio": "386",
+                    "NomePredio": "Almoxarifado de Obras 2",
+                    "CodEspacoFisico": "7897"
+                    },
+                    {
+                    "CodPredio": "387",
+                    "NomePredio": "Almoxarifado dos RU's",
+                    "CodEspacoFisico": "7926"
+                    },
+                    {
+                    "CodPredio": "258",
+                    "NomePredio": "Anexo da Faculdade de Ciências Econômicas",
+                    "CodEspacoFisico": "6345"
+                    },
+                    {
+                    "CodPredio": "39",
+                    "NomePredio": "Anexo I - Reitoria",
+                    "CodEspacoFisico": "39"
+                    },
+                    {
+                    "CodPredio": "29",
+                    "NomePredio": "Anexo I Saúde",
+                    "CodEspacoFisico": "29"
+                    },
+                    {
+                    "CodPredio": "38",
+                    "NomePredio": "Anexo II - Reitoria",
+                    "CodEspacoFisico": "38"
+                    },
+                    {
+                    "CodPredio": "41",
+                    "NomePredio": "Anexo III - Reitoria",
+                    "CodEspacoFisico": "41"
+                    },
+                    {
+                    "CodPredio": "255",
+                    "NomePredio": "Antiga Oficina Mecânica",
+                    "CodEspacoFisico": "6230"
+                    },
+                    {
+                    "CodPredio": "373",
+                    "NomePredio": "Área de Gravataí",
+                    "CodEspacoFisico": "7842"
+                    },
+                    {
+                    "CodPredio": "259",
+                    "NomePredio": "Biotério Central - CREAL - ICBS - C.do Vale",
+                    "CodEspacoFisico": "6430"
+                    },
+                    {
+                    "CodPredio": "418",
+                    "NomePredio": "Campus Litoral Norte - Biblioteca",
+                    "CodEspacoFisico": "8301"
+                    },
+                    {
+                    "CodPredio": "421",
+                    "NomePredio": "Campus Litoral Norte - Casa Dosadora de Cloro",
+                    "CodEspacoFisico": "8304"
+                    },
+                    {
+                    "CodPredio": "412",
+                    "NomePredio": "Campus Litoral Norte - Central de Resíduos",
+                    "CodEspacoFisico": "8295"
+                    },
+                    {
+                    "CodPredio": "408",
+                    "NomePredio": "Campus Litoral Norte - Guarita",
+                    "CodEspacoFisico": "8291"
+                    },
+                    {
+                    "CodPredio": "416",
+                    "NomePredio": "Campus Litoral Norte - Laboratórios",
+                    "CodEspacoFisico": "8299"
+                    },
+                    {
+                    "CodPredio": "419",
+                    "NomePredio": "Campus Litoral Norte - Prédio Acadêmico",
+                    "CodEspacoFisico": "8302"
+                    },
+                    {
+                    "CodPredio": "413",
+                    "NomePredio": "Campus Litoral Norte - Prédio Administrativo",
+                    "CodEspacoFisico": "8296"
+                    },
+                    {
+                    "CodPredio": "393",
+                    "NomePredio": "Campus Litoral Norte - Prefeitura Campus Litoral Norte",
+                    "CodEspacoFisico": "7944"
+                    },
+                    {
+                    "CodPredio": "414",
+                    "NomePredio": "Campus Litoral Norte - Refeitório Universitário",
+                    "CodEspacoFisico": "8297"
+                    },
+                    {
+                    "CodPredio": "410",
+                    "NomePredio": "Campus Litoral Norte - Restaurante",
+                    "CodEspacoFisico": "8293"
+                    },
+                    {
+                    "CodPredio": "415",
+                    "NomePredio": "Campus Litoral Norte - Salas de Aula",
+                    "CodEspacoFisico": "8298"
+                    },
+                    {
+                    "CodPredio": "417",
+                    "NomePredio": "Campus Litoral Norte - Sanitários/Lab. Informát./Gabinete do Reitor",
+                    "CodEspacoFisico": "8300"
+                    },
+                    {
+                    "CodPredio": "411",
+                    "NomePredio": "Campus Litoral Norte - Segurança/Depósito",
+                    "CodEspacoFisico": "8294"
+                    },
+                    {
+                    "CodPredio": "409",
+                    "NomePredio": "Campus Litoral Norte - Subestação Medidora de Energia Elétrica",
+                    "CodEspacoFisico": "8292"
+                    },
+                    {
+                    "CodPredio": "420",
+                    "NomePredio": "Campus Litoral Norte - Subestação Transformadora de Energia Elétrica",
+                    "CodEspacoFisico": "8303"
+                    },
+                    {
+                    "CodPredio": "379",
+                    "NomePredio": "Casa de Segurança do Campus do Vale",
+                    "CodEspacoFisico": "7852"
+                    },
+                    {
+                    "CodPredio": "73",
+                    "NomePredio": "Casa do Estudante  do Campus Saúde - CEUFRGS",
+                    "CodEspacoFisico": "73"
+                    },
+                    {
+                    "CodPredio": "69",
+                    "NomePredio": "Casa do Estudante do Campus Centro - CEU / RU 1/ DCE",
+                    "CodEspacoFisico": "69"
+                    },
+                    {
+                    "CodPredio": "61",
+                    "NomePredio": "Castelinho - NORIE",
+                    "CodEspacoFisico": "61"
+                    },
+                    {
+                    "CodPredio": "213",
+                    "NomePredio": "Cavalaria e Canil da Segurança do Campus do Vale",
+                    "CodEspacoFisico": "4582"
+                    },
+                    {
+                    "CodPredio": "102",
+                    "NomePredio": "Central de Gás e Vapor do RU 3",
+                    "CodEspacoFisico": "102"
+                    },
+                    {
+                    "CodPredio": "53",
+                    "NomePredio": "Centro de Biotecnologia",
+                    "CodEspacoFisico": "53"
+                    },
+                    {
+                    "CodPredio": "215",
+                    "NomePredio": "Centro de Biotecnologia -  Núcleo de Serviço",
+                    "CodEspacoFisico": "4918"
+                    },
+                    {
+                    "CodPredio": "216",
+                    "NomePredio": "Centro de Biotecnologia -  Subestação",
+                    "CodEspacoFisico": "4919"
+                    },
+                    {
+                    "CodPredio": "274",
+                    "NomePredio": "Centro de Desenvolvimento Gerencial / EA / UFRGS",
+                    "CodEspacoFisico": "7140"
+                    },
+                    {
+                    "CodPredio": "37",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Administração",
+                    "CodEspacoFisico": "37"
+                    },
+                    {
+                    "CodPredio": "270",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Anexo",
+                    "CodEspacoFisico": "6976"
+                    },
+                    {
+                    "CodPredio": "268",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Casa de Bombas",
+                    "CodEspacoFisico": "6974"
+                    },
+                    {
+                    "CodPredio": "265",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - CERAM",
+                    "CodEspacoFisico": "6971"
+                    },
+                    {
+                    "CodPredio": "267",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Graduação",
+                    "CodEspacoFisico": "6973"
+                    },
+                    {
+                    "CodPredio": "269",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Guarita",
+                    "CodEspacoFisico": "6975"
+                    },
+                    {
+                    "CodPredio": "272",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Marina",
+                    "CodEspacoFisico": "6978"
+                    },
+                    {
+                    "CodPredio": "123",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Museu",
+                    "CodEspacoFisico": "123"
+                    },
+                    {
+                    "CodPredio": "264",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Quiosque",
+                    "CodEspacoFisico": "6970"
+                    },
+                    {
+                    "CodPredio": "273",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Sanitários",
+                    "CodEspacoFisico": "6979"
+                    },
+                    {
+                    "CodPredio": "271",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Vestiários",
+                    "CodEspacoFisico": "6977"
+                    },
+                    {
+                    "CodPredio": "266",
+                    "NomePredio": "Centro de Estudos Costeiros Limnológicos e Marinhos - Viveiro",
+                    "CodEspacoFisico": "6972"
+                    },
+                    {
+                    "CodPredio": "34",
+                    "NomePredio": "Centro de Microscopia Eletrônica",
+                    "CodEspacoFisico": "34"
+                    },
+                    {
+                    "CodPredio": "31",
+                    "NomePredio": "Centro de Processamento de Dados / Coperse",
+                    "CodEspacoFisico": "31"
+                    },
+                    {
+                    "CodPredio": "55",
+                    "NomePredio": "Centro de Tecnologia",
+                    "CodEspacoFisico": "55"
+                    },
+                    {
+                    "CodPredio": "62",
+                    "NomePredio": "Centro de Teledifusão Educativa - CTE",
+                    "CodEspacoFisico": "62"
+                    },
+                    {
+                    "CodPredio": "108",
+                    "NomePredio": "Centro de Vivência do Campus do Vale",
+                    "CodEspacoFisico": "108"
+                    },
+                    {
+                    "CodPredio": "60",
+                    "NomePredio": "Chateau",
+                    "CodEspacoFisico": "60"
+                    },
+                    {
+                    "CodPredio": "30",
+                    "NomePredio": "Colégio de Aplicação - Prédios A - B - C",
+                    "CodEspacoFisico": "30"
+                    },
+                    {
+                    "CodPredio": "424",
+                    "NomePredio": "Colégio de Aplicação - Quadra Coberta",
+                    "CodEspacoFisico": "8694"
+                    },
+                    {
+                    "CodPredio": "422",
+                    "NomePredio": "Colégio de Aplicação - Quadra Descoberta 1",
+                    "CodEspacoFisico": "8692"
+                    },
+                    {
+                    "CodPredio": "423",
+                    "NomePredio": "Colégio de Aplicação - Quadra Descoberta 2",
+                    "CodEspacoFisico": "8693"
+                    },
+                    {
+                    "CodPredio": "425",
+                    "NomePredio": "Colégio de Aplicação - Refeitório",
+                    "CodEspacoFisico": "8695"
+                    },
+                    {
+                    "CodPredio": "194",
+                    "NomePredio": "Colônia de Férias - ASSUFRGS",
+                    "CodEspacoFisico": "3145"
+                    },
+                    {
+                    "CodPredio": "193",
+                    "NomePredio": "Colônia de Férias - Tramandaí",
+                    "CodEspacoFisico": "3138"
+                    },
+                    {
+                    "CodPredio": "403",
+                    "NomePredio": "Colônia de Férias - Tramandaí - Alojamento",
+                    "CodEspacoFisico": "8238"
+                    },
+                    {
+                    "CodPredio": "405",
+                    "NomePredio": "Colônia de Férias - Tramandaí - Churrasqueira",
+                    "CodEspacoFisico": "8240"
+                    },
+                    {
+                    "CodPredio": "404",
+                    "NomePredio": "Colônia de Férias - Tramandaí - Estar",
+                    "CodEspacoFisico": "8239"
+                    },
+                    {
+                    "CodPredio": "125",
+                    "NomePredio": "Colonia de Férias de Capão Novo - Alojamento I",
+                    "CodEspacoFisico": "125"
+                    },
+                    {
+                    "CodPredio": "126",
+                    "NomePredio": "Colonia de Férias de Capão Novo - Alojamento II",
+                    "CodEspacoFisico": "126"
+                    },
+                    {
+                    "CodPredio": "124",
+                    "NomePredio": "Colonia de Férias de Capão Novo - Salão de Festas",
+                    "CodEspacoFisico": "124"
+                    },
+                    {
+                    "CodPredio": "74",
+                    "NomePredio": "Creche Francesca Zacaro Faraco",
+                    "CodEspacoFisico": "74"
+                    },
+                    {
+                    "CodPredio": "72",
+                    "NomePredio": "Departamento de Atenção à Saúde - DAS",
+                    "CodEspacoFisico": "72"
+                    },
+                    {
+                    "CodPredio": "51",
+                    "NomePredio": "Departamento de Bioquímica - ICBS",
+                    "CodEspacoFisico": "51"
+                    },
+                    {
+                    "CodPredio": "47",
+                    "NomePredio": "Departamento de Patrimônio",
+                    "CodEspacoFisico": "47"
+                    },
+                    {
+                    "CodPredio": "170",
+                    "NomePredio": "Depósito da Editora",
+                    "CodEspacoFisico": "170"
+                    },
+                    {
+                    "CodPredio": "371",
+                    "NomePredio": "Depósito de Resíduos do RU 3",
+                    "CodEspacoFisico": "7827"
+                    },
+                    {
+                    "CodPredio": "168",
+                    "NomePredio": "Depósito do Patrimônio",
+                    "CodEspacoFisico": "168"
+                    },
+                    {
+                    "CodPredio": "155",
+                    "NomePredio": "Divisão de Transportes - DITRAN",
+                    "CodEspacoFisico": "155"
+                    },
+                    {
+                    "CodPredio": "2",
+                    "NomePredio": "Escola de Administração",
+                    "CodEspacoFisico": "2"
+                    },
+                    {
+                    "CodPredio": "3",
+                    "NomePredio": "Escola de Enfermagem",
+                    "CodEspacoFisico": "3"
+                    },
+                    {
+                    "CodPredio": "388",
+                    "NomePredio": "Escola de Engenharia - Anexo Laboratório de Energia Solar",
+                    "CodEspacoFisico": "7927"
+                    },
+                    {
+                    "CodPredio": "56",
+                    "NomePredio": "Escola de Engenharia - Departamento de Engenharia Elétrica - DELET",
+                    "CodEspacoFisico": "56"
+                    },
+                    {
+                    "CodPredio": "57",
+                    "NomePredio": "Escola de Engenharia - Departamento de Engenharia Mecânica - DEMEC",
+                    "CodEspacoFisico": "57"
+                    },
+                    {
+                    "CodPredio": "68",
+                    "NomePredio": "Escola de Engenharia - Departamento de Engenharia Química - DEQUI",
+                    "CodEspacoFisico": "68"
+                    },
+                    {
+                    "CodPredio": "180",
+                    "NomePredio": "Escola de Engenharia - Eng. MMM - Adm. e Depto Materiais",
+                    "CodEspacoFisico": "1188"
+                    },
+                    {
+                    "CodPredio": "181",
+                    "NomePredio": "Escola de Engenharia - Eng. MMM - Depto Minas e Metalurgia",
+                    "CodEspacoFisico": "1195"
+                    },
+                    {
+                    "CodPredio": "192",
+                    "NomePredio": "Escola de Engenharia - Labor. de Aerod. das Construções - Túnel do Vento",
+                    "CodEspacoFisico": "3129"
+                    },
+                    {
+                    "CodPredio": "218",
+                    "NomePredio": "Escola de Engenharia - Laboratório de Energia Solar - LABSOL",
+                    "CodEspacoFisico": "4944"
+                    },
+                    {
+                    "CodPredio": "275",
+                    "NomePredio": "Escola de Engenharia - Laboratório de Ensaios e Mod. Estruturais - LEME",
+                    "CodEspacoFisico": "7178"
+                    },
+                    {
+                    "CodPredio": "195",
+                    "NomePredio": "Escola de Engenharia - Laboratório de Materiais Poliméricos - LAPOL",
+                    "CodEspacoFisico": "3210"
+                    },
+                    {
+                    "CodPredio": "385",
+                    "NomePredio": "Escola de Engenharia - Laboratório de Metalurgia Física - LAMEF",
+                    "CodEspacoFisico": "7887"
+                    },
+                    {
+                    "CodPredio": "252",
+                    "NomePredio": "Escola de Engenharia - Laboratório de Pavimentação - LAPAV",
+                    "CodEspacoFisico": "6194"
+                    },
+                    {
+                    "CodPredio": "381",
+                    "NomePredio": "Escola de Engenharia - Laboratório de Tec. Mineral e Ambiental - LTM",
+                    "CodEspacoFisico": "7854"
+                    },
+                    {
+                    "CodPredio": "277",
+                    "NomePredio": "Escola de Engenharia - Núcleo de Serviço",
+                    "CodEspacoFisico": "7260"
+                    },
+                    {
+                    "CodPredio": "4",
+                    "NomePredio": "Escola de Engenharia - Prédio Centenário",
+                    "CodEspacoFisico": "4"
+                    },
+                    {
+                    "CodPredio": "286",
+                    "NomePredio": "Escola de Engenharia - Subestação",
+                    "CodEspacoFisico": "7278"
+                    },
+                    {
+                    "CodPredio": "32",
+                    "NomePredio": "Escola de Engenharia Nova",
+                    "CodEspacoFisico": "32"
+                    },
+                    {
+                    "CodPredio": "5",
+                    "NomePredio": "ESEF - Administração / Aulas",
+                    "CodEspacoFisico": "5"
+                    },
+                    {
+                    "CodPredio": "336",
+                    "NomePredio": "ESEF - Depósito",
+                    "CodEspacoFisico": "7694"
+                    },
+                    {
+                    "CodPredio": "261",
+                    "NomePredio": "ESEF - Galpão Crioulo",
+                    "CodEspacoFisico": "6561"
+                    },
+                    {
+                    "CodPredio": "80",
+                    "NomePredio": "ESEF - Ginásio 2",
+                    "CodEspacoFisico": "80"
+                    },
+                    {
+                    "CodPredio": "359",
+                    "NomePredio": "ESEF - Ginásio Poliesportivo",
+                    "CodEspacoFisico": "7805"
+                    },
+                    {
+                    "CodPredio": "78",
+                    "NomePredio": "ESEF - Ginásio1",
+                    "CodEspacoFisico": "78"
+                    },
+                    {
+                    "CodPredio": "127",
+                    "NomePredio": "ESEF - Guarita de Segurança do Campus Olímpico",
+                    "CodEspacoFisico": "127"
+                    },
+                    {
+                    "CodPredio": "81",
+                    "NomePredio": "ESEF - Laboratório de Pesquisa do Exercício - LAPEX",
+                    "CodEspacoFisico": "81"
+                    },
+                    {
+                    "CodPredio": "337",
+                    "NomePredio": "ESEF - Manutenção do Campus Olímpico",
+                    "CodEspacoFisico": "7695"
+                    },
+                    {
+                    "CodPredio": "338",
+                    "NomePredio": "ESEF - Manutenção do Campus Olímpico",
+                    "CodEspacoFisico": "7696"
+                    },
+                    {
+                    "CodPredio": "40",
+                    "NomePredio": "ESEF - Piscina Térmica / Centro Natatório / Musculação",
+                    "CodEspacoFisico": "40"
+                    },
+                    {
+                    "CodPredio": "139",
+                    "NomePredio": "ESEF - Projeto Quero-Quero",
+                    "CodEspacoFisico": "139"
+                    },
+                    {
+                    "CodPredio": "260",
+                    "NomePredio": "ESEF - Restaurante Universitário (RU 5) / Clínica de Fisioterapia",
+                    "CodEspacoFisico": "6431"
+                    },
+                    {
+                    "CodPredio": "79",
+                    "NomePredio": "ESEF - Salas de Aula / Biblioteca",
+                    "CodEspacoFisico": "79"
+                    },
+                    {
+                    "CodPredio": "407",
+                    "NomePredio": "ESEF - Vestiário",
+                    "CodEspacoFisico": "8281"
+                    },
+                    {
+                    "CodPredio": "349",
+                    "NomePredio": "Espaço de Comercialização e Consumo Consciente",
+                    "CodEspacoFisico": "7707"
+                    },
+                    {
+                    "CodPredio": "402",
+                    "NomePredio": "Estação Experimental Agronômica - Abrigo de máquinas",
+                    "CodEspacoFisico": "8214"
+                    },
+                    {
+                    "CodPredio": "401",
+                    "NomePredio": "Estação Experimental Agronômica - Almoxarifado e Carpintaria",
+                    "CodEspacoFisico": "8213"
+                    },
+                    {
+                    "CodPredio": "114",
+                    "NomePredio": "Estação Experimental Agronômica - Alojamento e Salas de Aula",
+                    "CodEspacoFisico": "114"
+                    },
+                    {
+                    "CodPredio": "117",
+                    "NomePredio": "Estação Experimental Agronômica - Aviário I",
+                    "CodEspacoFisico": "117"
+                    },
+                    {
+                    "CodPredio": "291",
+                    "NomePredio": "Estação Experimental Agronômica - Aviário II",
+                    "CodEspacoFisico": "7309"
+                    },
+                    {
+                    "CodPredio": "122",
+                    "NomePredio": "Estação Experimental Agronômica - Casa de Vegetação",
+                    "CodEspacoFisico": "122"
+                    },
+                    {
+                    "CodPredio": "120",
+                    "NomePredio": "Estação Experimental Agronômica - Galpão de Lubrificação",
+                    "CodEspacoFisico": "120"
+                    },
+                    {
+                    "CodPredio": "119",
+                    "NomePredio": "Estação Experimental Agronômica - Laboratório de Plantas de Lavouras",
+                    "CodEspacoFisico": "119"
+                    },
+                    {
+                    "CodPredio": "115",
+                    "NomePredio": "Estação Experimental Agronômica - Oficina Mecânica",
+                    "CodEspacoFisico": "115"
+                    },
+                    {
+                    "CodPredio": "400",
+                    "NomePredio": "Estação Experimental Agronômica - Pavilhão para rações",
+                    "CodEspacoFisico": "8212"
+                    },
+                    {
+                    "CodPredio": "292",
+                    "NomePredio": "Estação Experimental Agronômica - Pocilga",
+                    "CodEspacoFisico": "7310"
+                    },
+                    {
+                    "CodPredio": "397",
+                    "NomePredio": "Estação Experimental Agronômica - Prédio Administrativo",
+                    "CodEspacoFisico": "8209"
+                    },
+                    {
+                    "CodPredio": "398",
+                    "NomePredio": "Estação Experimental Agronômica - Refeitório",
+                    "CodEspacoFisico": "8210"
+                    },
+                    {
+                    "CodPredio": "121",
+                    "NomePredio": "Estação Experimental Agronômica - Sede de Horticultura",
+                    "CodEspacoFisico": "121"
+                    },
+                    {
+                    "CodPredio": "399",
+                    "NomePredio": "Estação Experimental Agronômica - Silo - Secador de grãos",
+                    "CodEspacoFisico": "8211"
+                    },
+                    {
+                    "CodPredio": "309",
+                    "NomePredio": "Faculdade de Agronomia - Agrometeorologia",
+                    "CodEspacoFisico": "7567"
+                    },
+                    {
+                    "CodPredio": "310",
+                    "NomePredio": "Faculdade de Agronomia - Agrometeorologia",
+                    "CodEspacoFisico": "7568"
+                    },
+                    {
+                    "CodPredio": "322",
+                    "NomePredio": "Faculdade de Agronomia - Aquacultura",
+                    "CodEspacoFisico": "7580"
+                    },
+                    {
+                    "CodPredio": "367",
+                    "NomePredio": "Faculdade de Agronomia - Aviário de Ensino e Pesquisa",
+                    "CodEspacoFisico": "7818"
+                    },
+                    {
+                    "CodPredio": "327",
+                    "NomePredio": "Faculdade de Agronomia - Câmara de Crescimentos (Solos)",
+                    "CodEspacoFisico": "7585"
+                    },
+                    {
+                    "CodPredio": "203",
+                    "NomePredio": "Faculdade de Agronomia - Casa do Estudante do Campus do Vale - CEFAV",
+                    "CodEspacoFisico": "3829"
+                    },
+                    {
+                    "CodPredio": "298",
+                    "NomePredio": "Faculdade de Agronomia - Castelinho",
+                    "CodEspacoFisico": "7556"
+                    },
+                    {
+                    "CodPredio": "183",
+                    "NomePredio": "Faculdade de Agronomia - Central de Salas de Aula",
+                    "CodEspacoFisico": "2161"
+                    },
+                    {
+                    "CodPredio": "302",
+                    "NomePredio": "Faculdade de Agronomia - Confed. Brasil. de Apicultura.-CBA",
+                    "CodEspacoFisico": "7560"
+                    },
+                    {
+                    "CodPredio": "304",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Fitossanidade",
+                    "CodEspacoFisico": "7562"
+                    },
+                    {
+                    "CodPredio": "305",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Fitossanidade",
+                    "CodEspacoFisico": "7563"
+                    },
+                    {
+                    "CodPredio": "306",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Fitossanidade",
+                    "CodEspacoFisico": "7564"
+                    },
+                    {
+                    "CodPredio": "307",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Fitossanidade",
+                    "CodEspacoFisico": "7565"
+                    },
+                    {
+                    "CodPredio": "308",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Fitossanidade",
+                    "CodEspacoFisico": "7566"
+                    },
+                    {
+                    "CodPredio": "187",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Fitossanidade",
+                    "CodEspacoFisico": "2182"
+                    },
+                    {
+                    "CodPredio": "188",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Plantas de Lavoura - PLAV",
+                    "CodEspacoFisico": "2183"
+                    },
+                    {
+                    "CodPredio": "189",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Solos",
+                    "CodEspacoFisico": "2184"
+                    },
+                    {
+                    "CodPredio": "185",
+                    "NomePredio": "Faculdade de Agronomia - Departamento de Zootecnia - PG",
+                    "CodEspacoFisico": "2180"
+                    },
+                    {
+                    "CodPredio": "295",
+                    "NomePredio": "Faculdade de Agronomia - Departamento Forrageiras e Agrometeorologia",
+                    "CodEspacoFisico": "7553"
+                    },
+                    {
+                    "CodPredio": "339",
+                    "NomePredio": "Faculdade de Agronomia - Departamento Horticultura e Plantas de Lavoura",
+                    "CodEspacoFisico": "7697"
+                    },
+                    {
+                    "CodPredio": "303",
+                    "NomePredio": "Faculdade de Agronomia - Depósito e Lavagem",
+                    "CodEspacoFisico": "7561"
+                    },
+                    {
+                    "CodPredio": "299",
+                    "NomePredio": "Faculdade de Agronomia - Estufa (Fitossanidade)",
+                    "CodEspacoFisico": "7557"
+                    },
+                    {
+                    "CodPredio": "313",
+                    "NomePredio": "Faculdade de Agronomia - Estufa (Horticultura - Setor de Floricultura)",
+                    "CodEspacoFisico": "7571"
+                    },
+                    {
+                    "CodPredio": "325",
+                    "NomePredio": "Faculdade de Agronomia - Estufa (Plantas de Lavoura)-Fitossanidade",
+                    "CodEspacoFisico": "7583"
+                    },
+                    {
+                    "CodPredio": "326",
+                    "NomePredio": "Faculdade de Agronomia - Estufa (Solos)",
+                    "CodEspacoFisico": "7584"
+                    },
+                    {
+                    "CodPredio": "323",
+                    "NomePredio": "Faculdade de Agronomia - Estufa (Solos)",
+                    "CodEspacoFisico": "7581"
+                    },
+                    {
+                    "CodPredio": "324",
+                    "NomePredio": "Faculdade de Agronomia - Estufa (Solos)",
+                    "CodEspacoFisico": "7582"
+                    },
+                    {
+                    "CodPredio": "330",
+                    "NomePredio": "Faculdade de Agronomia - Estufas Plantas de Lavoura",
+                    "CodEspacoFisico": "7588"
+                    },
+                    {
+                    "CodPredio": "317",
+                    "NomePredio": "Faculdade de Agronomia - Fábrica de Rações",
+                    "CodEspacoFisico": "7575"
+                    },
+                    {
+                    "CodPredio": "316",
+                    "NomePredio": "Faculdade de Agronomia - Galpão Crioulo",
+                    "CodEspacoFisico": "7574"
+                    },
+                    {
+                    "CodPredio": "329",
+                    "NomePredio": "Faculdade de Agronomia - Galpão de Solos",
+                    "CodEspacoFisico": "7587"
+                    },
+                    {
+                    "CodPredio": "301",
+                    "NomePredio": "Faculdade de Agronomia - Garagem",
+                    "CodEspacoFisico": "7559"
+                    },
+                    {
+                    "CodPredio": "331",
+                    "NomePredio": "Faculdade de Agronomia - Garagem do  Depto de Plantas de Lavoura/morador",
+                    "CodEspacoFisico": "7589"
+                    },
+                    {
+                    "CodPredio": "332",
+                    "NomePredio": "Faculdade de Agronomia - Garagem do Grupo Frota",
+                    "CodEspacoFisico": "7590"
+                    },
+                    {
+                    "CodPredio": "365",
+                    "NomePredio": "Faculdade de Agronomia - Guarita de Segurança da Agronomia",
+                    "CodEspacoFisico": "7816"
+                    },
+                    {
+                    "CodPredio": "311",
+                    "NomePredio": "Faculdade de Agronomia - Hangar de Máquinas",
+                    "CodEspacoFisico": "7569"
+                    },
+                    {
+                    "CodPredio": "366",
+                    "NomePredio": "Faculdade de Agronomia - Laboratório da Flora Ruderal  - LAFLOR",
+                    "CodEspacoFisico": "7817"
+                    },
+                    {
+                    "CodPredio": "312",
+                    "NomePredio": "Faculdade de Agronomia - Laboratório de Análises de Solos",
+                    "CodEspacoFisico": "7570"
+                    },
+                    {
+                    "CodPredio": "315",
+                    "NomePredio": "Faculdade de Agronomia - Laboratório de Controle Biológico",
+                    "CodEspacoFisico": "7573"
+                    },
+                    {
+                    "CodPredio": "328",
+                    "NomePredio": "Faculdade de Agronomia - Laboratório de Erosão",
+                    "CodEspacoFisico": "7586"
+                    },
+                    {
+                    "CodPredio": "300",
+                    "NomePredio": "Faculdade de Agronomia - Laboratório de Fitossanidade",
+                    "CodEspacoFisico": "7558"
+                    },
+                    {
+                    "CodPredio": "297",
+                    "NomePredio": "Faculdade de Agronomia - Laboratório de Forrageiras",
+                    "CodEspacoFisico": "7555"
+                    },
+                    {
+                    "CodPredio": "314",
+                    "NomePredio": "Faculdade de Agronomia - Laboratório de Pós-Colheita",
+                    "CodEspacoFisico": "7572"
+                    },
+                    {
+                    "CodPredio": "321",
+                    "NomePredio": "Faculdade de Agronomia - Pátio de Compostagem",
+                    "CodEspacoFisico": "7579"
+                    },
+                    {
+                    "CodPredio": "318",
+                    "NomePredio": "Faculdade de Agronomia - Pavilhão de Suínos",
+                    "CodEspacoFisico": "7576"
+                    },
+                    {
+                    "CodPredio": "319",
+                    "NomePredio": "Faculdade de Agronomia - Pavilhão para Aves e Coelhos",
+                    "CodEspacoFisico": "7577"
+                    },
+                    {
+                    "CodPredio": "320",
+                    "NomePredio": "Faculdade de Agronomia - Pavilhão para Ruminantes",
+                    "CodEspacoFisico": "7578"
+                    },
+                    {
+                    "CodPredio": "186",
+                    "NomePredio": "Faculdade de Agronomia - Plantas Forrageiras e Agrometerologia",
+                    "CodEspacoFisico": "2181"
+                    },
+                    {
+                    "CodPredio": "6",
+                    "NomePredio": "Faculdade de Agronomia - Prédio Central",
+                    "CodEspacoFisico": "6"
+                    },
+                    {
+                    "CodPredio": "296",
+                    "NomePredio": "Faculdade de Agronomia - Preparo Amostras Forrageiras",
+                    "CodEspacoFisico": "7554"
+                    },
+                    {
+                    "CodPredio": "211",
+                    "NomePredio": "Faculdade de Agronomia - Restaurante Universitário (RU 4)",
+                    "CodEspacoFisico": "4382"
+                    },
+                    {
+                    "CodPredio": "7",
+                    "NomePredio": "Faculdade de Arquitetura",
+                    "CodEspacoFisico": "7"
+                    },
+                    {
+                    "CodPredio": "8",
+                    "NomePredio": "Faculdade de Biblioteconomia  e Comunicação  - FABICO",
+                    "CodEspacoFisico": "8"
+                    },
+                    {
+                    "CodPredio": "70",
+                    "NomePredio": "Faculdade de C. Econômicas -Centro de Estudos e Pesquisas Econôm. - IEPE",
+                    "CodEspacoFisico": "70"
+                    },
+                    {
+                    "CodPredio": "9",
+                    "NomePredio": "Faculdade de Ciências Econômicas",
+                    "CodEspacoFisico": "9"
+                    },
+                    {
+                    "CodPredio": "10",
+                    "NomePredio": "Faculdade de Direito",
+                    "CodEspacoFisico": "10"
+                    },
+                    {
+                    "CodPredio": "11",
+                    "NomePredio": "Faculdade de Educação",
+                    "CodEspacoFisico": "11"
+                    },
+                    {
+                    "CodPredio": "12",
+                    "NomePredio": "Faculdade de Farmácia",
+                    "CodEspacoFisico": "12"
+                    },
+                    {
+                    "CodPredio": "75",
+                    "NomePredio": "Faculdade de Farmácia - Anexo",
+                    "CodEspacoFisico": "75"
+                    },
+                    {
+                    "CodPredio": "376",
+                    "NomePredio": "Faculdade de Farmácia - Anexo 1",
+                    "CodEspacoFisico": "7846"
+                    },
+                    {
+                    "CodPredio": "395",
+                    "NomePredio": "Faculdade de Farmácia - Anexo 2",
+                    "CodEspacoFisico": "8192"
+                    },
+                    {
+                    "CodPredio": "77",
+                    "NomePredio": "Faculdade de Medicina",
+                    "CodEspacoFisico": "77"
+                    },
+                    {
+                    "CodPredio": "14",
+                    "NomePredio": "Faculdade de Odontologia",
+                    "CodEspacoFisico": "14"
+                    },
+                    {
+                    "CodPredio": "240",
+                    "NomePredio": "Faculdade de Veterinária - Administração",
+                    "CodEspacoFisico": "5210"
+                    },
+                    {
+                    "CodPredio": "226",
+                    "NomePredio": "Faculdade de Veterinária - Baias",
+                    "CodEspacoFisico": "5196"
+                    },
+                    {
+                    "CodPredio": "15",
+                    "NomePredio": "Faculdade de Veterinária - Biblioteca / Auditório",
+                    "CodEspacoFisico": "15"
+                    },
+                    {
+                    "CodPredio": "48",
+                    "NomePredio": "Faculdade de Veterinária - Bloco de Laboratórios/Salas de Aulas",
+                    "CodEspacoFisico": "48"
+                    },
+                    {
+                    "CodPredio": "161",
+                    "NomePredio": "Faculdade de Veterinária - Centro de Diag.e Pesq. em Patol. Aviária",
+                    "CodEspacoFisico": "161"
+                    },
+                    {
+                    "CodPredio": "162",
+                    "NomePredio": "Faculdade de Veterinária - Centro de Diag.e Pesq. em Patol. Aviária",
+                    "CodEspacoFisico": "162"
+                    },
+                    {
+                    "CodPredio": "250",
+                    "NomePredio": "Faculdade de Veterinária - Coelhário do Setor de Imunologia",
+                    "CodEspacoFisico": "6085"
+                    },
+                    {
+                    "CodPredio": "230",
+                    "NomePredio": "Faculdade de Veterinária - Estábulo de Bovinos",
+                    "CodEspacoFisico": "5200"
+                    },
+                    {
+                    "CodPredio": "231",
+                    "NomePredio": "Faculdade de Veterinária - Estábulo de Ovinos e Caprinos",
+                    "CodEspacoFisico": "5201"
+                    },
+                    {
+                    "CodPredio": "233",
+                    "NomePredio": "Faculdade de Veterinária - Estrumeira",
+                    "CodEspacoFisico": "5203"
+                    },
+                    {
+                    "CodPredio": "223",
+                    "NomePredio": "Faculdade de Veterinária - Gabinete de Professores",
+                    "CodEspacoFisico": "5193"
+                    },
+                    {
+                    "CodPredio": "341",
+                    "NomePredio": "Faculdade de Veterinária - Galpão Crioulo",
+                    "CodEspacoFisico": "7699"
+                    },
+                    {
+                    "CodPredio": "234",
+                    "NomePredio": "Faculdade de Veterinária - Garagem - Almoxarifado",
+                    "CodEspacoFisico": "5204"
+                    },
+                    {
+                    "CodPredio": "238",
+                    "NomePredio": "Faculdade de Veterinária - Granja de Suínos",
+                    "CodEspacoFisico": "5208"
+                    },
+                    {
+                    "CodPredio": "343",
+                    "NomePredio": "Faculdade de Veterinária - Guarita de Segurança AGROVET",
+                    "CodEspacoFisico": "7701"
+                    },
+                    {
+                    "CodPredio": "342",
+                    "NomePredio": "Faculdade de Veterinária - Guarita de Segurança DEPATRI",
+                    "CodEspacoFisico": "7700"
+                    },
+                    {
+                    "CodPredio": "45",
+                    "NomePredio": "Faculdade de Veterinária - Hospital de Clínicas Veterinárias - HCV",
+                    "CodEspacoFisico": "45"
+                    },
+                    {
+                    "CodPredio": "372",
+                    "NomePredio": "Faculdade de Veterinária - Lab. de Inspeção de Produt. de Origem Animal",
+                    "CodEspacoFisico": "7838"
+                    },
+                    {
+                    "CodPredio": "227",
+                    "NomePredio": "Faculdade de Veterinária - Lab. Pequenos Ruminantes",
+                    "CodEspacoFisico": "5197"
+                    },
+                    {
+                    "CodPredio": "232",
+                    "NomePredio": "Faculdade de Veterinária - Lab.de Helmintologia-Lab. de Bacteorologia",
+                    "CodEspacoFisico": "5202"
+                    },
+                    {
+                    "CodPredio": "163",
+                    "NomePredio": "Faculdade de Veterinária - Lab.de Inspeção de Produtos de  Origem Animal",
+                    "CodEspacoFisico": "163"
+                    },
+                    {
+                    "CodPredio": "237",
+                    "NomePredio": "Faculdade de Veterinária - Laboratório de Embriologia Experimental.",
+                    "CodEspacoFisico": "5207"
+                    },
+                    {
+                    "CodPredio": "235",
+                    "NomePredio": "Faculdade de Veterinária - Laboratório de Entomologia",
+                    "CodEspacoFisico": "5205"
+                    },
+                    {
+                    "CodPredio": "225",
+                    "NomePredio": "Faculdade de Veterinária - Laboratório de Inseminação",
+                    "CodEspacoFisico": "5195"
+                    },
+                    {
+                    "CodPredio": "340",
+                    "NomePredio": "Faculdade de Veterinária - Laboratório de Inspeção  do Leite",
+                    "CodEspacoFisico": "7698"
+                    },
+                    {
+                    "CodPredio": "294",
+                    "NomePredio": "Faculdade de Veterinária - Laboratório de Patologia Veterinária",
+                    "CodEspacoFisico": "7376"
+                    },
+                    {
+                    "CodPredio": "222",
+                    "NomePredio": "Faculdade de Veterinária - Laboratório de Protozoologia",
+                    "CodEspacoFisico": "5192"
+                    },
+                    {
+                    "CodPredio": "236",
+                    "NomePredio": "Faculdade de Veterinária - Laboratório de Reprodução",
+                    "CodEspacoFisico": "5206"
+                    },
+                    {
+                    "CodPredio": "253",
+                    "NomePredio": "Faculdade de Veterinária - Prédio de Salas de Aula",
+                    "CodEspacoFisico": "6199"
+                    },
+                    {
+                    "CodPredio": "224",
+                    "NomePredio": "Faculdade de Veterinária - Setor de Grandes Ruminantes",
+                    "CodEspacoFisico": "5194"
+                    },
+                    {
+                    "CodPredio": "241",
+                    "NomePredio": "Faculdade de Veterinária - Setor de Patologia Veterinária",
+                    "CodEspacoFisico": "5211"
+                    },
+                    {
+                    "CodPredio": "239",
+                    "NomePredio": "Faculdade de Veterinária - Setor de Suínos",
+                    "CodEspacoFisico": "5209"
+                    },
+                    {
+                    "CodPredio": "228",
+                    "NomePredio": "Faculdade de Veterinária - Silo",
+                    "CodEspacoFisico": "5198"
+                    },
+                    {
+                    "CodPredio": "353",
+                    "NomePredio": "Faculdade de Veterinária - Transformador",
+                    "CodEspacoFisico": "7729"
+                    },
+                    {
+                    "CodPredio": "293",
+                    "NomePredio": "Faculdade de Veterinária -Lab.Tecn.do Sêmen e Proteínas de Rep. Animal",
+                    "CodEspacoFisico": "7375"
+                    },
+                    {
+                    "CodPredio": "229",
+                    "NomePredio": "Faculdade de Veterinária-Laboratório de Embriol. e Biotec. da Reprodução",
+                    "CodEspacoFisico": "5199"
+                    },
+                    {
+                    "CodPredio": "35",
+                    "NomePredio": "Fundação de Apoio à Universidade Federal do Rio Grande do Sul - FAURGS",
+                    "CodEspacoFisico": "35"
+                    },
+                    {
+                    "CodPredio": "217",
+                    "NomePredio": "Galpão Crioulo",
+                    "CodEspacoFisico": "4920"
+                    },
+                    {
+                    "CodPredio": "368",
+                    "NomePredio": "Guarita de Seg. do Pórtico de Entrada do Campus do Vale",
+                    "CodEspacoFisico": "7819"
+                    },
+                    {
+                    "CodPredio": "363",
+                    "NomePredio": "Guarita de Segurança do Campus Centro",
+                    "CodEspacoFisico": "7809"
+                    },
+                    {
+                    "CodPredio": "358",
+                    "NomePredio": "Guarita de Segurança do Campus Centro",
+                    "CodEspacoFisico": "7804"
+                    },
+                    {
+                    "CodPredio": "242",
+                    "NomePredio": "Guarita de Segurança do Campus Saúde",
+                    "CodEspacoFisico": "5456"
+                    },
+                    {
+                    "CodPredio": "13",
+                    "NomePredio": "Hospital de Clínicas de Porto Alegre",
+                    "CodEspacoFisico": "13"
+                    },
+                    {
+                    "CodPredio": "93",
+                    "NomePredio": "IFCH - Bib.Setor.Ciên.Soc. e Hum.-BSCSH-Aulas-Núc.-Lab.",
+                    "CodEspacoFisico": "93"
+                    },
+                    {
+                    "CodPredio": "33",
+                    "NomePredio": "IFCH - Inst Lat Amer.de Est  Avanç-ILEA-Pantheon-CEMU-Lab.Prof-Salas Aul",
+                    "CodEspacoFisico": "33"
+                    },
+                    {
+                    "CodPredio": "16",
+                    "NomePredio": "Instituto de Artes",
+                    "CodEspacoFisico": "16"
+                    },
+                    {
+                    "CodPredio": "276",
+                    "NomePredio": "Instituto de Artes - Anexo",
+                    "CodEspacoFisico": "7215"
+                    },
+                    {
+                    "CodPredio": "159",
+                    "NomePredio": "Instituto de Artes - Depto de Artes Dramáticas - Anexo",
+                    "CodEspacoFisico": "159"
+                    },
+                    {
+                    "CodPredio": "50",
+                    "NomePredio": "Instituto de Artes - Depto de Artes Dramáticas - DAD",
+                    "CodEspacoFisico": "50"
+                    },
+                    {
+                    "CodPredio": "158",
+                    "NomePredio": "Instituto de Artes - Programa de Pós-Graduação em Música - PPGMúsica",
+                    "CodEspacoFisico": "158"
+                    },
+                    {
+                    "CodPredio": "392",
+                    "NomePredio": "Instituto de Biocências - Estufa (Genética)",
+                    "CodEspacoFisico": "7939"
+                    },
+                    {
+                    "CodPredio": "350",
+                    "NomePredio": "Instituto de Biociências - Administração",
+                    "CodEspacoFisico": "7724"
+                    },
+                    {
+                    "CodPredio": "390",
+                    "NomePredio": "Instituto de Biociências - Casa do Gerador (Biofísica)",
+                    "CodEspacoFisico": "7937"
+                    },
+                    {
+                    "CodPredio": "352",
+                    "NomePredio": "Instituto de Biociências - Centro de Ecologia",
+                    "CodEspacoFisico": "7728"
+                    },
+                    {
+                    "CodPredio": "257",
+                    "NomePredio": "Instituto de Biociências - Centro de Ecologia",
+                    "CodEspacoFisico": "6339"
+                    },
+                    {
+                    "CodPredio": "92",
+                    "NomePredio": "Instituto de Biociências - DEGEN e PPGEN",
+                    "CodEspacoFisico": "92"
+                    },
+                    {
+                    "CodPredio": "109",
+                    "NomePredio": "Instituto de Biociências - Departamento de Biofísica",
+                    "CodEspacoFisico": "109"
+                    },
+                    {
+                    "CodPredio": "106",
+                    "NomePredio": "Instituto de Biociências - Departamento de Botânica - DEBOT",
+                    "CodEspacoFisico": "106"
+                    },
+                    {
+                    "CodPredio": "166",
+                    "NomePredio": "Instituto de Biociências - Departamento de Botânica - DEBOT",
+                    "CodEspacoFisico": "166"
+                    },
+                    {
+                    "CodPredio": "191",
+                    "NomePredio": "Instituto de Biociências - Departamento de Botânica - DEBOT",
+                    "CodEspacoFisico": "2600"
+                    },
+                    {
+                    "CodPredio": "17",
+                    "NomePredio": "Instituto de Biociências - Departamento de Ecologia",
+                    "CodEspacoFisico": "17"
+                    },
+                    {
+                    "CodPredio": "104",
+                    "NomePredio": "Instituto de Biociências - Departamento de Genética - DEGEN",
+                    "CodEspacoFisico": "104"
+                    },
+                    {
+                    "CodPredio": "107",
+                    "NomePredio": "Instituto de Biociências - Departamento de Zoologia",
+                    "CodEspacoFisico": "107"
+                    },
+                    {
+                    "CodPredio": "356",
+                    "NomePredio": "Instituto de Biociências - Departamento de Zoologia",
+                    "CodEspacoFisico": "7740"
+                    },
+                    {
+                    "CodPredio": "355",
+                    "NomePredio": "Instituto de Biociências - Depto.de Botânica e Central Telefônica",
+                    "CodEspacoFisico": "7739"
+                    },
+                    {
+                    "CodPredio": "54",
+                    "NomePredio": "Instituto de Biociências - Depto.de Ecologia e Depto.de Biofísica",
+                    "CodEspacoFisico": "54"
+                    },
+                    {
+                    "CodPredio": "391",
+                    "NomePredio": "Instituto de Biociências - Estufa",
+                    "CodEspacoFisico": "7938"
+                    },
+                    {
+                    "CodPredio": "354",
+                    "NomePredio": "Instituto de Biociências - Núcleo de Apoio e Salas de Aula",
+                    "CodEspacoFisico": "7730"
+                    },
+                    {
+                    "CodPredio": "288",
+                    "NomePredio": "Instituto de Biociências - Subestação",
+                    "CodEspacoFisico": "7280"
+                    },
+                    {
+                    "CodPredio": "19",
+                    "NomePredio": "Instituto de Ciências Básicas da Saúde - ICBS",
+                    "CodEspacoFisico": "19"
+                    },
+                    {
+                    "CodPredio": "18",
+                    "NomePredio": "Instituto de Ciências e Tecnologia de Alimentos - ICTA",
+                    "CodEspacoFisico": "18"
+                    },
+                    {
+                    "CodPredio": "251",
+                    "NomePredio": "Instituto de Filosofia e Ciências Humanas - IFCH",
+                    "CodEspacoFisico": "6123"
+                    },
+                    {
+                    "CodPredio": "202",
+                    "NomePredio": "Instituto de Filosofia e Ciências Humanas - IFCH",
+                    "CodEspacoFisico": "3556"
+                    },
+                    {
+                    "CodPredio": "20",
+                    "NomePredio": "Instituto de Filosofia e Ciências Humanas - IFCH - Letras -Salas de Aula",
+                    "CodEspacoFisico": "20"
+                    },
+                    {
+                    "CodPredio": "42",
+                    "NomePredio": "Instituto de Filosofia e Ciências Humanas-Adm.-Secret.-Deptos.-Pós-Grad",
+                    "CodEspacoFisico": "42"
+                    },
+                    {
+                    "CodPredio": "91",
+                    "NomePredio": "Instituto de Física - Administração e Implantador de Ions",
+                    "CodEspacoFisico": "91"
+                    },
+                    {
+                    "CodPredio": "21",
+                    "NomePredio": "Instituto de Física - Biblioteca",
+                    "CodEspacoFisico": "21"
+                    },
+                    {
+                    "CodPredio": "97",
+                    "NomePredio": "Instituto de Física - Casa de Força",
+                    "CodEspacoFisico": "97"
+                    },
+                    {
+                    "CodPredio": "174",
+                    "NomePredio": "Instituto de Física - Casa de Força - Sala das Prensas",
+                    "CodEspacoFisico": "174"
+                    },
+                    {
+                    "CodPredio": "176",
+                    "NomePredio": "Instituto de Física - DAEF e Reprografia",
+                    "CodEspacoFisico": "176"
+                    },
+                    {
+                    "CodPredio": "95",
+                    "NomePredio": "Instituto de Física - Depósito de Material Radioativo",
+                    "CodEspacoFisico": "95"
+                    },
+                    {
+                    "CodPredio": "173",
+                    "NomePredio": "Instituto de Física - Ex-Implantador de Íons",
+                    "CodEspacoFisico": "173"
+                    },
+                    {
+                    "CodPredio": "98",
+                    "NomePredio": "Instituto de Física - Geradores",
+                    "CodEspacoFisico": "98"
+                    },
+                    {
+                    "CodPredio": "100",
+                    "NomePredio": "Instituto de Física - Laboratório de Laser e Ótica",
+                    "CodEspacoFisico": "100"
+                    },
+                    {
+                    "CodPredio": "175",
+                    "NomePredio": "Instituto de Física - Microeletrônica e Criogenia",
+                    "CodEspacoFisico": "175"
+                    },
+                    {
+                    "CodPredio": "99",
+                    "NomePredio": "Instituto de Física - No-Breaks",
+                    "CodEspacoFisico": "99"
+                    },
+                    {
+                    "CodPredio": "89",
+                    "NomePredio": "Instituto de Física - Prédio L",
+                    "CodEspacoFisico": "89"
+                    },
+                    {
+                    "CodPredio": "171",
+                    "NomePredio": "Instituto de Física - Prédio M",
+                    "CodEspacoFisico": "171"
+                    },
+                    {
+                    "CodPredio": "172",
+                    "NomePredio": "Instituto de Física - Prédio N",
+                    "CodEspacoFisico": "172"
+                    },
+                    {
+                    "CodPredio": "209",
+                    "NomePredio": "Instituto de Geociências",
+                    "CodEspacoFisico": "4188"
+                    },
+                    {
+                    "CodPredio": "210",
+                    "NomePredio": "Instituto de Geociências",
+                    "CodEspacoFisico": "4190"
+                    },
+                    {
+                    "CodPredio": "204",
+                    "NomePredio": "Instituto de Geociências",
+                    "CodEspacoFisico": "4183"
+                    },
+                    {
+                    "CodPredio": "85",
+                    "NomePredio": "Instituto de Geociências - Centro Est.de Geologia Cost. e Oceân.-CECO",
+                    "CodEspacoFisico": "85"
+                    },
+                    {
+                    "CodPredio": "87",
+                    "NomePredio": "Instituto de Geociências - Dep. Paleon.Estrat.-CIGO-Museu Paleontológico",
+                    "CodEspacoFisico": "87"
+                    },
+                    {
+                    "CodPredio": "86",
+                    "NomePredio": "Instituto de Geociências - Dep.Mineral.Petrogr.- CPGq",
+                    "CodEspacoFisico": "86"
+                    },
+                    {
+                    "CodPredio": "90",
+                    "NomePredio": "Instituto de Geociências - Depto Geod.-Depto Geografia-CPC-CPGC",
+                    "CodEspacoFisico": "90"
+                    },
+                    {
+                    "CodPredio": "206",
+                    "NomePredio": "Instituto de Geociências - Laboratório de CT Petro - Litoteca-IGEO",
+                    "CodEspacoFisico": "4185"
+                    },
+                    {
+                    "CodPredio": "205",
+                    "NomePredio": "Instituto de Geociências - Laboratório de Geologia Isotópica - CPGq",
+                    "CodEspacoFisico": "4184"
+                    },
+                    {
+                    "CodPredio": "207",
+                    "NomePredio": "Instituto de Geociências - PPG em Estratografia",
+                    "CodEspacoFisico": "4186"
+                    },
+                    {
+                    "CodPredio": "22",
+                    "NomePredio": "Instituto de Geociências - Prog.Pós-Grad.-CAEG-DACAR-DAGE-Bibliot.",
+                    "CodEspacoFisico": "22"
+                    },
+                    {
+                    "CodPredio": "289",
+                    "NomePredio": "Instituto de Informática",
+                    "CodEspacoFisico": "7281"
+                    },
+                    {
+                    "CodPredio": "290",
+                    "NomePredio": "Instituto de Informática",
+                    "CodEspacoFisico": "7282"
+                    },
+                    {
+                    "CodPredio": "23",
+                    "NomePredio": "Instituto de Informática - Anfiteatros - Biblioteca - Administração",
+                    "CodEspacoFisico": "23"
+                    },
+                    {
+                    "CodPredio": "43",
+                    "NomePredio": "Instituto de Informática - CEI - Auditório Prof. Castilhos-Gabin.-Labor.",
+                    "CodEspacoFisico": "43"
+                    },
+                    {
+                    "CodPredio": "182",
+                    "NomePredio": "Instituto de Informática - Gabinete de Professores - Laboratórios",
+                    "CodEspacoFisico": "1885"
+                    },
+                    {
+                    "CodPredio": "44",
+                    "NomePredio": "Instituto de Informática - Salas de Aula Teóricas - Laboratórios",
+                    "CodEspacoFisico": "44"
+                    },
+                    {
+                    "CodPredio": "287",
+                    "NomePredio": "Instituto de Informática - Subestação",
+                    "CodEspacoFisico": "7279"
+                    },
+                    {
+                    "CodPredio": "24",
+                    "NomePredio": "Instituto de Letras",
+                    "CodEspacoFisico": "24"
+                    },
+                    {
+                    "CodPredio": "82",
+                    "NomePredio": "Instituto de Matemática - Gabinete de Professores",
+                    "CodEspacoFisico": "82"
+                    },
+                    {
+                    "CodPredio": "208",
+                    "NomePredio": "Instituto de Matemática - Núc.Aces.Estat.-NAE-Dir.Acad.Est.e Matem-DAEMA",
+                    "CodEspacoFisico": "4187"
+                    },
+                    {
+                    "CodPredio": "25",
+                    "NomePredio": "Instituto de Matemática e Est.-Quím-Administração-Centro Nanotec.-CNANO",
+                    "CodEspacoFisico": "25"
+                    },
+                    {
+                    "CodPredio": "165",
+                    "NomePredio": "Instituto de Matemática e Física - Salas de Aula-Biblioteca-SEAD",
+                    "CodEspacoFisico": "165"
+                    },
+                    {
+                    "CodPredio": "27",
+                    "NomePredio": "Instituto de Psicologia",
+                    "CodEspacoFisico": "27"
+                    },
+                    {
+                    "CodPredio": "246",
+                    "NomePredio": "Instituto de Química - Almoxarifado",
+                    "CodEspacoFisico": "5557"
+                    },
+                    {
+                    "CodPredio": "243",
+                    "NomePredio": "Instituto de Química - Almoxarifado",
+                    "CodEspacoFisico": "5554"
+                    },
+                    {
+                    "CodPredio": "263",
+                    "NomePredio": "Instituto de Química - Ambiente de Controle do Pânico",
+                    "CodEspacoFisico": "6910"
+                    },
+                    {
+                    "CodPredio": "96",
+                    "NomePredio": "Instituto de Química - Central Analítica",
+                    "CodEspacoFisico": "96"
+                    },
+                    {
+                    "CodPredio": "197",
+                    "NomePredio": "Instituto de Química - Centro de Combustíveis - CECOM",
+                    "CodEspacoFisico": "3454"
+                    },
+                    {
+                    "CodPredio": "384",
+                    "NomePredio": "Instituto de Química - Centro de Nanotecnologia-CNANO",
+                    "CodEspacoFisico": "7865"
+                    },
+                    {
+                    "CodPredio": "244",
+                    "NomePredio": "Instituto de Química - CGTRQ",
+                    "CodEspacoFisico": "5555"
+                    },
+                    {
+                    "CodPredio": "245",
+                    "NomePredio": "Instituto de Química - CGTRQ",
+                    "CodEspacoFisico": "5556"
+                    },
+                    {
+                    "CodPredio": "94",
+                    "NomePredio": "Instituto de Química - CGTRQ Centro de Gestão e Tratamento de Resíduos",
+                    "CodEspacoFisico": "94"
+                    },
+                    {
+                    "CodPredio": "344",
+                    "NomePredio": "Instituto de Química - Diretório Acadêmico - DAQ",
+                    "CodEspacoFisico": "7702"
+                    },
+                    {
+                    "CodPredio": "84",
+                    "NomePredio": "Instituto de Química - Físico-Química - Química Inorgânica - Biblioteca",
+                    "CodEspacoFisico": "84"
+                    },
+                    {
+                    "CodPredio": "380",
+                    "NomePredio": "Instituto de Química - Laboratório de Catálise Molecular",
+                    "CodEspacoFisico": "7853"
+                    },
+                    {
+                    "CodPredio": "88",
+                    "NomePredio": "Instituto de Química - Laboratório de Pesquisa",
+                    "CodEspacoFisico": "88"
+                    },
+                    {
+                    "CodPredio": "249",
+                    "NomePredio": "Instituto de Química - Laboratório de Pesquisa Combustível",
+                    "CodEspacoFisico": "5560"
+                    },
+                    {
+                    "CodPredio": "83",
+                    "NomePredio": "Instituto de Química - Química Inorgânica",
+                    "CodEspacoFisico": "83"
+                    },
+                    {
+                    "CodPredio": "248",
+                    "NomePredio": "Instituto de Química - Sala de Equipamentos",
+                    "CodEspacoFisico": "5559"
+                    },
+                    {
+                    "CodPredio": "164",
+                    "NomePredio": "Instituto de Química - Salas de Aula-Laboratório de Informática",
+                    "CodEspacoFisico": "164"
+                    },
+                    {
+                    "CodPredio": "247",
+                    "NomePredio": "Instituto de Química - Telheiro",
+                    "CodEspacoFisico": "5558"
+                    },
+                    {
+                    "CodPredio": "178",
+                    "NomePredio": "IPH - Brinquedoteca",
+                    "CodEspacoFisico": "1186"
+                    },
+                    {
+                    "CodPredio": "282",
+                    "NomePredio": "IPH - Caixa D'Água",
+                    "CodEspacoFisico": "7273"
+                    },
+                    {
+                    "CodPredio": "284",
+                    "NomePredio": "IPH - Centro Estad. de Pesquisas em Sensor.  Remoto e Meteor. -Depósito",
+                    "CodEspacoFisico": "7275"
+                    },
+                    {
+                    "CodPredio": "370",
+                    "NomePredio": "IPH - Estação Recuperadora de Qualidade Ambiental - ERQA",
+                    "CodEspacoFisico": "7823"
+                    },
+                    {
+                    "CodPredio": "281",
+                    "NomePredio": "IPH - Galpão Crioulo",
+                    "CodEspacoFisico": "7272"
+                    },
+                    {
+                    "CodPredio": "280",
+                    "NomePredio": "IPH - Garagem",
+                    "CodEspacoFisico": "7271"
+                    },
+                    {
+                    "CodPredio": "285",
+                    "NomePredio": "IPH - Guarita de Segurança do IPH",
+                    "CodEspacoFisico": "7276"
+                    },
+                    {
+                    "CodPredio": "333",
+                    "NomePredio": "IPH - Guarita de Segurança do Pórtico do IPH",
+                    "CodEspacoFisico": "7631"
+                    },
+                    {
+                    "CodPredio": "283",
+                    "NomePredio": "IPH - Laboratório de Tecnologia - LADETEC",
+                    "CodEspacoFisico": "7274"
+                    },
+                    {
+                    "CodPredio": "279",
+                    "NomePredio": "IPH - Núcleo de Est. de Correntes de  Densidade - NECOD",
+                    "CodEspacoFisico": "7270"
+                    },
+                    {
+                    "CodPredio": "345",
+                    "NomePredio": "IPH - Núcleo Residencial",
+                    "CodEspacoFisico": "7703"
+                    },
+                    {
+                    "CodPredio": "346",
+                    "NomePredio": "IPH - Núcleo Residencial",
+                    "CodEspacoFisico": "7704"
+                    },
+                    {
+                    "CodPredio": "347",
+                    "NomePredio": "IPH - Núcleo Residencial",
+                    "CodEspacoFisico": "7705"
+                    },
+                    {
+                    "CodPredio": "348",
+                    "NomePredio": "IPH - Núcleo Residencial",
+                    "CodEspacoFisico": "7706"
+                    },
+                    {
+                    "CodPredio": "112",
+                    "NomePredio": "IPH - Pavilhão Fluvial",
+                    "CodEspacoFisico": "112"
+                    },
+                    {
+                    "CodPredio": "111",
+                    "NomePredio": "IPH - Pavilhão Marítimo",
+                    "CodEspacoFisico": "111"
+                    },
+                    {
+                    "CodPredio": "351",
+                    "NomePredio": "IPH - Pavilhão Shell",
+                    "CodEspacoFisico": "7725"
+                    },
+                    {
+                    "CodPredio": "26",
+                    "NomePredio": "IPH - Prédio Administrativo",
+                    "CodEspacoFisico": "26"
+                    },
+                    {
+                    "CodPredio": "113",
+                    "NomePredio": "IPH - Prédio de Ensino",
+                    "CodEspacoFisico": "113"
+                    },
+                    {
+                    "CodPredio": "278",
+                    "NomePredio": "IPH - Sedimentometria",
+                    "CodEspacoFisico": "7269"
+                    },
+                    {
+                    "CodPredio": "36",
+                    "NomePredio": "IPH -Centro Estadual de Pesquisas em Sensoriamento Remoto e Meteorologia",
+                    "CodEspacoFisico": "36"
+                    },
+                    {
+                    "CodPredio": "110",
+                    "NomePredio": "Módulo Comercial do Campus do Vale",
+                    "CodEspacoFisico": "110"
+                    },
+                    {
+                    "CodPredio": "103",
+                    "NomePredio": "Módulo de Serviços - Suinfra Vale",
+                    "CodEspacoFisico": "103"
+                    },
+                    {
+                    "CodPredio": "63",
+                    "NomePredio": "Museu Universitário",
+                    "CodEspacoFisico": "63"
+                    },
+                    {
+                    "CodPredio": "254",
+                    "NomePredio": "Núcleo de Apoio - Segurança / Ambulatório",
+                    "CodEspacoFisico": "6229"
+                    },
+                    {
+                    "CodPredio": "49",
+                    "NomePredio": "Observatório Astronômico (Velho)",
+                    "CodEspacoFisico": "49"
+                    },
+                    {
+                    "CodPredio": "167",
+                    "NomePredio": "Observatório Astronômico - Morro Santana",
+                    "CodEspacoFisico": "167"
+                    },
+                    {
+                    "CodPredio": "46",
+                    "NomePredio": "Oficinas de Produção - Marcenaria",
+                    "CodEspacoFisico": "46"
+                    },
+                    {
+                    "CodPredio": "52",
+                    "NomePredio": "Planetário",
+                    "CodEspacoFisico": "52"
+                    },
+                    {
+                    "CodPredio": "66",
+                    "NomePredio": "Prefeitura Campus Centro - Coordenadoria de Segurança",
+                    "CodEspacoFisico": "66"
+                    },
+                    {
+                    "CodPredio": "190",
+                    "NomePredio": "Prefeitura Campus do Vale",
+                    "CodEspacoFisico": "2191"
+                    },
+                    {
+                    "CodPredio": "76",
+                    "NomePredio": "Prefeitura Campus Saúde",
+                    "CodEspacoFisico": "76"
+                    },
+                    {
+                    "CodPredio": "1",
+                    "NomePredio": "Reitoria",
+                    "CodEspacoFisico": "1"
+                    },
+                    {
+                    "CodPredio": "364",
+                    "NomePredio": "Reservatório",
+                    "CodEspacoFisico": "7812"
+                    },
+                    {
+                    "CodPredio": "383",
+                    "NomePredio": "Reservatório",
+                    "CodEspacoFisico": "7864"
+                    },
+                    {
+                    "CodPredio": "129",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "129"
+                    },
+                    {
+                    "CodPredio": "130",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "130"
+                    },
+                    {
+                    "CodPredio": "131",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "131"
+                    },
+                    {
+                    "CodPredio": "132",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "132"
+                    },
+                    {
+                    "CodPredio": "133",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "133"
+                    },
+                    {
+                    "CodPredio": "134",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "134"
+                    },
+                    {
+                    "CodPredio": "135",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "135"
+                    },
+                    {
+                    "CodPredio": "136",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "136"
+                    },
+                    {
+                    "CodPredio": "137",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "137"
+                    },
+                    {
+                    "CodPredio": "138",
+                    "NomePredio": "Residência",
+                    "CodEspacoFisico": "138"
+                    },
+                    {
+                    "CodPredio": "154",
+                    "NomePredio": "Residência - 45602",
+                    "CodEspacoFisico": "154"
+                    },
+                    {
+                    "CodPredio": "128",
+                    "NomePredio": "Residência - 52101",
+                    "CodEspacoFisico": "128"
+                    },
+                    {
+                    "CodPredio": "140",
+                    "NomePredio": "Residência - 52201",
+                    "CodEspacoFisico": "140"
+                    },
+                    {
+                    "CodPredio": "142",
+                    "NomePredio": "Residência - 52307",
+                    "CodEspacoFisico": "142"
+                    },
+                    {
+                    "CodPredio": "143",
+                    "NomePredio": "Residência - 52401",
+                    "CodEspacoFisico": "143"
+                    },
+                    {
+                    "CodPredio": "144",
+                    "NomePredio": "Residência - 52404",
+                    "CodEspacoFisico": "144"
+                    },
+                    {
+                    "CodPredio": "145",
+                    "NomePredio": "Residência - 52405",
+                    "CodEspacoFisico": "145"
+                    },
+                    {
+                    "CodPredio": "146",
+                    "NomePredio": "Residência - 52406",
+                    "CodEspacoFisico": "146"
+                    },
+                    {
+                    "CodPredio": "147",
+                    "NomePredio": "Residência - 52502",
+                    "CodEspacoFisico": "147"
+                    },
+                    {
+                    "CodPredio": "148",
+                    "NomePredio": "Residência - 52508",
+                    "CodEspacoFisico": "148"
+                    },
+                    {
+                    "CodPredio": "149",
+                    "NomePredio": "Residência - 52610",
+                    "CodEspacoFisico": "149"
+                    },
+                    {
+                    "CodPredio": "150",
+                    "NomePredio": "Residência - 52611",
+                    "CodEspacoFisico": "150"
+                    },
+                    {
+                    "CodPredio": "151",
+                    "NomePredio": "Residência - 52612",
+                    "CodEspacoFisico": "151"
+                    },
+                    {
+                    "CodPredio": "152",
+                    "NomePredio": "Residência - 52613",
+                    "CodEspacoFisico": "152"
+                    },
+                    {
+                    "CodPredio": "153",
+                    "NomePredio": "Residência - 52811",
+                    "CodEspacoFisico": "153"
+                    },
+                    {
+                    "CodPredio": "141",
+                    "NomePredio": "Residência - 54401",
+                    "CodEspacoFisico": "141"
+                    },
+                    {
+                    "CodPredio": "375",
+                    "NomePredio": "Restaurante do Bloco IV",
+                    "CodEspacoFisico": "7845"
+                    },
+                    {
+                    "CodPredio": "200",
+                    "NomePredio": "Restaurante Univers.(RU 2)/ Gráfica / Editora / Farmácia Popular/DCE",
+                    "CodEspacoFisico": "3519"
+                    },
+                    {
+                    "CodPredio": "389",
+                    "NomePredio": "Restaurante Universitário (RU 6)",
+                    "CodEspacoFisico": "7928"
+                    },
+                    {
+                    "CodPredio": "101",
+                    "NomePredio": "Restaurante Universitário do Campus do Vale (RU 3)",
+                    "CodEspacoFisico": "101"
+                    },
+                    {
+                    "CodPredio": "65",
+                    "NomePredio": "Sala Redenção - Cinema Universitário",
+                    "CodEspacoFisico": "65"
+                    },
+                    {
+                    "CodPredio": "64",
+                    "NomePredio": "Salão de Atos",
+                    "CodEspacoFisico": "64"
+                    },
+                    {
+                    "CodPredio": "374",
+                    "NomePredio": "Salas de Aula Campus Centro",
+                    "CodEspacoFisico": "7844"
+                    },
+                    {
+                    "CodPredio": "105",
+                    "NomePredio": "Salas de Aula do Campus do Vale",
+                    "CodEspacoFisico": "105"
+                    },
+                    {
+                    "CodPredio": "58",
+                    "NomePredio": "Salas de Aula Economia - Antiga Escola Técnica de Comércio I",
+                    "CodEspacoFisico": "58"
+                    },
+                    {
+                    "CodPredio": "59",
+                    "NomePredio": "Salas de Aula Economia - Antiga Escola Técnica de Comércio II",
+                    "CodEspacoFisico": "59"
+                    },
+                    {
+                    "CodPredio": "357",
+                    "NomePredio": "Sanitários (motoristas) do Campus do Vale",
+                    "CodEspacoFisico": "7742"
+                    },
+                    {
+                    "CodPredio": "160",
+                    "NomePredio": "Santa Casa de Misericórdia",
+                    "CodEspacoFisico": "160"
+                    },
+                    {
+                    "CodPredio": "382",
+                    "NomePredio": "Serralheria do Campus do Vale",
+                    "CodEspacoFisico": "7856"
+                    },
+                    {
+                    "CodPredio": "212",
+                    "NomePredio": "Setor de Vigilância do Campus do Vale",
+                    "CodEspacoFisico": "4581"
+                    },
+                    {
+                    "CodPredio": "377",
+                    "NomePredio": "Setor de Vigilância do Morro Santana",
+                    "CodEspacoFisico": "7848"
+                    },
+                    {
+                    "CodPredio": "335",
+                    "NomePredio": "Subestação Distribuidora de Energia Elétrica do Campus do Vale",
+                    "CodEspacoFisico": "7691"
+                    },
+                    {
+                    "CodPredio": "369",
+                    "NomePredio": "Terminal de Ônibus do Campus do Vale",
+                    "CodEspacoFisico": "7822"
+                    },
+                    {
+                    "CodPredio": "396",
+                    "NomePredio": "Transmissores da Rádio da Universidade",
+                    "CodEspacoFisico": "8208"
+                    }
+                    ]
+    }
 }

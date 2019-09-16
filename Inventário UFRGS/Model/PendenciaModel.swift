@@ -14,4 +14,11 @@ class PendenciaModel: NSObject {
     var tipo: String = ""
     var seq: String = ""
     
+    override init() {}
+    
+    init(nome: String, tipo: String, seq: String) {
+        self.nome = nome
+        self.tipo = tipo
+        self.seq = seq
+    }
 }
